@@ -1,1 +1,26 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Belanosima&display=swap');
+@import 'animate.css';
+
+h1, h2 {
+    font-family: 'Belanosima', sans-serif;
+}
+*{
+    color: white;
+}
+body{
+    background-color: rgb(33, 42, 58);
+}
+
+.section-full{
+    min-height: 100vh !important;
+}
+
+.btn{
+    border-radius: 25px;
+}
+.btn:hover{
+    animation: heartBeat;
+    animation-duration: 1.5s; 
+    background-color: white;
+}
