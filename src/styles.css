@@ -1,15 +1,30 @@
 /* You can add global styles to this file, and also import other style files */
 @import url('https://fonts.googleapis.com/css2?family=Belanosima&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap');
 @import 'animate.css';
+
+:root {
+    /*COLORS*/
+    --yellow: #ffa600;
+    --yellow-active:#e2a31a;
+
+    --background: rgb(22, 22, 22)
+  }
+
+  *{
+    color: white;
+    font-family: 'Work Sans', sans-serif;
+}
 
 h1, h2 {
     font-family: 'Belanosima', sans-serif;
 }
-*{
-    color: white;
-}
+
 body{
     background-color: rgb(33, 42, 58);
+    background-color: rgb(31, 31, 31);
+    background-color: var(--background)
 }
 
 .section-full{
@@ -17,10 +32,20 @@ body{
 }
 
 .btn{
+    background-color: var(--yellow);
     border-radius: 25px;
+    font-weight:600 ;
+}
+
+@keyframes click{
+    0% {transform: scale(1)}
+    40% {transform: scale(0.9)}
+    100% {transform: scale(1)}
 }
 .btn:hover{
-    animation: heartBeat;
-    animation-duration: 1.5s; 
-    background-color: white;
+    animation: click;
+    animation-duration: .5s;
+    color: white;
+    border-color: white;
+    background-color: var(--background)
 }

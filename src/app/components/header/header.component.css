@@ -1,9 +1,17 @@
 img{
     border-radius:100% ;    
     width: 150px;
+    margin-bottom:1.5rem
 }
-.icon{
+h2{
+    margin: 0;
+}
+.icon-container{
     padding: 1rem;
+    /*text-shadow: 2px 2px 5px black;*/
+}
+.icon:hover{
+    color: var(--yellow)
 }
 
 p{
