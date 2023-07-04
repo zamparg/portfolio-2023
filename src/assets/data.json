@@ -2,15 +2,19 @@
     "skills": {
       "frontend":[
         {
-            "img":"https://res.cloudinary.com/zamparg/image/upload/v1665771939/Portfolio/Habiliadades/html_nkk4zb.png",
-            "tittle":"HTML"
+            "img":"https://2.bp.blogspot.com/_sDOe5HxTdMk/TTsZ5zq5dbI/AAAAAAAAB-k/LKIG16gsWjU/s1600/HTML5_Badge_128.png",
+            "tittle":"HTML5"
         },
         {
-            "img":"https://res.cloudinary.com/zamparg/image/upload/v1665771938/Portfolio/Habiliadades/css_ijh4oh.png",
-            "tittle":"CSS"
+            "img":"https://cdn1.iconfinder.com/data/icons/logotypes/32/badge-css-3-128.png",
+            "tittle":"CSS3"
         },
         {
-            "img":"https://res.cloudinary.com/zamparg/image/upload/v1665771939/Portfolio/Habiliadades/javascript_lp35eg.png",
+            "img":"https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/180px-Bootstrap_logo.svg.png",
+            "tittle":"Bootstrap"
+        },
+        {
+            "img":"https://dirteam.com/sander/wp-content/uploads/sites/2/2016/09/js-logo.png",
             "tittle":"Javascript"
         },
         {
@@ -18,11 +22,36 @@
             "tittle":"Angular"
         },
         {
+            "img":"https://cdn.jsdelivr.net/gh/angular-material-extensions/link-preview/assets/angular-material-extensions-logo.png",
+            "tittle":"Angular Material"
+        },
+        {
             "img":"https://res.cloudinary.com/zamparg/image/upload/v1665771938/Portfolio/Habiliadades/Git_dxls4j.png",
             "tittle":"GIT"
+        },
+        {
+            "img":"https://uploads.strikinglycdn.com/page/images/icons/github-icon.png",
+            "tittle":"GitHub"
         }
         ],
-        "backend":[{}],
+        "backend":[{
+            "img":"https://www.taniarascia.com/static/517c02bd875932e2a959488763695b28/92ab1/node.png",
+            "tittle":"NodeJs"
+        },
+        {
+            "img":"https://www.iconninja.com/files/880/980/48/logo-mysql-development-code-icon.png",
+            "tittle":"MySql"
+        },
+        {
+            "img":"https://smyl.es/wurdp/assets/mongodb-150x150.png",
+            "tittle":"MongoDB"
+        },
+        {
+            "img":"https://www.pngrepo.com/png/303670/180/firebase-1-logo.png",
+            "tittle":"Firebase"
+        }
+    
+    ],
         "dis":[{
             "img":"https://res.cloudinary.com/zamparg/image/upload/v1665771938/Portfolio/Habiliadades/APs_isdtyw.png",
             "tittle":"Adobe Photoshop"

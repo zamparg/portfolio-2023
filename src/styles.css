@@ -52,3 +52,9 @@ body{
     border-color: white;
     background-color: var(--background)
 }
+
+@media (max-width: 780px){
+    .avatar-container{
+        text-align: center;
+    }
+}
