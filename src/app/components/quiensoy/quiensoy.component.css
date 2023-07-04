@@ -5,7 +5,42 @@ img{
     background-color: rgb(63, 62, 57)
 
 }
-h4{
+h4, h5{
     font-size: 1rem;
     font-weight: bold;
+}
+.row{
+    --bs-gutter-x:0;
+}
+.about-container{
+    /* background-color: black; */
+    background-color: rgb(41, 41, 41);
+    border: white 2px solid;
+    padding: 2rem;
+    border-radius: 10px;
+}
+.progress-bar-front{
+    background-color: var(--yellow-active);
+}
+.progress-bar-back{
+    background-color:  var(--blue);
+}
+.progress-bar-ilustracion{
+    background-color:var(--green);
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+li{
+    display: inline-block;
+    cursor: pointer;
+}
+
+.active {
+    color: var(--yellow-active);
 }

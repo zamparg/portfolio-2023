@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./quiensoy.component.css']
 })
 export class QuiensoyComponent {
+  skill:string = 'front'
+
+  changeSkill(skill:string){
+    this.skill=skill
+  }
 
 }

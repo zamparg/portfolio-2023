@@ -1,0 +1,43 @@
+{
+    "skills": {
+      "frontend":[
+        {
+            "img":"https://res.cloudinary.com/zamparg/image/upload/v1665771939/Portfolio/Habiliadades/html_nkk4zb.png",
+            "tittle":"HTML"
+        },
+        {
+            "img":"https://res.cloudinary.com/zamparg/image/upload/v1665771938/Portfolio/Habiliadades/css_ijh4oh.png",
+            "tittle":"CSS"
+        },
+        {
+            "img":"https://res.cloudinary.com/zamparg/image/upload/v1665771939/Portfolio/Habiliadades/javascript_lp35eg.png",
+            "tittle":"Javascript"
+        },
+        {
+            "img":"https://juststickers.in/wp-content/uploads/2017/11/angular-original.png",
+            "tittle":"Angular"
+        },
+        {
+            "img":"https://res.cloudinary.com/zamparg/image/upload/v1665771938/Portfolio/Habiliadades/Git_dxls4j.png",
+            "tittle":"GIT"
+        }
+        ],
+        "backend":[{}],
+        "dis":[{
+            "img":"https://res.cloudinary.com/zamparg/image/upload/v1665771938/Portfolio/Habiliadades/APs_isdtyw.png",
+            "tittle":"Adobe Photoshop"
+        },
+        {
+            "img":"https://res.cloudinary.com/zamparg/image/upload/v1665771938/Portfolio/Habiliadades/Ai_urmiy8.png",
+            "tittle":"Adobe Illustrator"
+        },
+        {
+            "img":"https://res.cloudinary.com/zamparg/image/upload/v1665771938/Portfolio/Habiliadades/APr_vpg1mp.png",
+            "tittle":"Adobre Premiere"
+        },
+        {
+            "img":"https://res.cloudinary.com/zamparg/image/upload/v1665771938/Portfolio/Habiliadades/AAe_fnqkgs.png",
+            "tittle":"Adobe After Effects"
+        }]
+      }
+}
