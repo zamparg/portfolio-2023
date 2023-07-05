@@ -1,0 +1,69 @@
+.card-img{
+    margin-top: 1.5rem;
+}
+.fa-2xl	{
+    height: 4rem;
+    text-align: center;
+    font-size: 4rem;
+    line-height: 1;
+}
+
+
+.card{
+    margin-bottom: 1rem;
+    background-color: rgb(41, 41, 41);
+    
+}
+.card:hover{
+    animation: pulse; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;}
+    
+    .card-title{
+        color: white;
+    }
+
+/* CARDS */
+
+.card:hover i{
+    transition-property: color;
+    transition-duration: .75s;
+    color: white;
+    animation-name: fade
+}
+.card1{
+    border: var(--yellow-active) 2px solid;
+}
+.card2{
+    border:var(--blue) 2px solid;
+}
+.card3{
+    border: var(--green) 2px solid;
+}
+.card1 i {
+    color: var(--yellow-active) ;
+
+}
+.card2 i {
+    color: var(--blue) ;    
+}
+.card3 i {
+    color: var(--green) ;    
+}
+.card1:hover{
+    transition-property: background-color;
+    transition-duration: .75s;
+    background-color: var(--yellow-active);
+}
+
+.card2:hover{
+    transition-property: background-color;
+    transition-duration: 1s;
+    background-color: var(--blue);
+}
+
+.card3:hover{
+    transition-property: background-color;
+    transition-duration: 1s;
+    background-color: var(--green);
+}

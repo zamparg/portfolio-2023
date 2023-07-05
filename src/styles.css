@@ -23,6 +23,13 @@
 h1, h2, h3 {
     font-family: 'Belanosima', sans-serif;
 }
+a {
+    color: var(--yellow-active);
+}
+
+a:hover {
+    color: white
+}
 
 body{
     background-color: rgb(33, 42, 58);
