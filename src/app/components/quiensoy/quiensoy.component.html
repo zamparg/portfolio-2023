@@ -40,7 +40,7 @@
                 <li (click)="changeSkill('dis')" [class.active]="skill==='dis'"><h5>Diseño</h5></li>
             </ul>
         </div>
-        <div class="skillContainer mt-4 mb-4 ">
+        <div class="skillContainer mt-4 mb-4 " *ngIf="data">
             <div *ngIf="skill=='front'" class="row mt-3 animate__animated animate__fadeIn gap-2">
                 <div *ngFor="let skill of data.frontend" class="col d-flex flex-column justify-content-between text-center align-items-center "> 
                         <img [src]="skill.img" alt="" class="img-fluid icon-skill mb-2">

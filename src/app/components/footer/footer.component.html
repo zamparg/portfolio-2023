@@ -1,16 +1,19 @@
-<section class="container-fluid">
-    <h2>Quien Soy</h2>
-    <div class="row mt-5  align-items-end">
-        <div class="col-md-3 avatar-container">
-    
+<section class="container-fluid section-full avatar-container justify-content-center align-items-center gap-2">
+    <h2>Contactame</h2>
+    <div class="row mt-5  align-items-start contact-container">
+        <div class="col-md-3">
+            <h3>¡Escribime para lo que necesites!</h3>
+            <p>También podés enviarme un <a href="mailto:zamparg@hotmail.com">Email</a></p>
         </div>
-        <div class="col about-container row">
-            <div class="about-info">
-                <p class="px-2">Soy curioso, autodidacta y comprometido al 100%. Mi objetivo es crecer profesionalmente en un entorno
-                    colaborativo, donde pueda trabajar en equipo para desarrollar soluciones innovadoras.</p>
-                <a href="../../../assets/CV Gaston Zampar.pdf" download="CV-Zamparg" class="btn">Descargar CV</a>
-            </div>
 
+        <div class="col form-container">
+            <form action="" #cForm="ngForm" class="row gap-4 p-2 pb-5" id="contactForm" (ngSubmit)="onSend()" [formGroup]="contactForm">
+                <input type="text" formControlName="nombre" placeholder="Nombre" class="col formTab">
+                <input type="text" formControlName="email" placeholder="Email" class="col formTab">
+                <input type="text" formControlName="asunto" placeholder="Asunto" class="col-md-12 formTab">
+                <textarea type="text" formControlName="comentario" placeholder="Mensaje" class="col-md-12 formTab"></textarea>
+                <button type="submit" class="btn">Enviar Mensaje</button>
+            </form>
         </div>
     </div>
 </section>

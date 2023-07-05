@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { FormBuilder, FormGroup } from '@angular/forms';
 
 @Component({
   selector: 'app-footer',
@@ -7,4 +8,18 @@ import { Component } from '@angular/core';
 })
 export class FooterComponent {
 
-}
+  contactForm:FormGroup 
+
+  constructor(private _fb:FormBuilder){
+    this.contactForm= this._fb.group(
+      {
+      nombre:[''],
+      email:[''],
+      asunto:[''],
+      comentario:['']
+    })
+    }
+
+
+    onSend(){}
+  }

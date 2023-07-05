@@ -1,8 +1,55 @@
 .avatar-container{
-    width: 250px;
-    height: 150px;
+
     background-image:url('https://res.cloudinary.com/zamparg/image/upload/v1688049724/AVATAR2_jako0d.png');
-    background-position: center;
-    background-size: contain;
+    background-position:left bottom ;
+    background-size: 25%;
     background-repeat: no-repeat;
+}
+
+.formTab{
+    padding: .8rem;
+    color: black;
+    border-radius: 10px;
+    border: none;
+}
+textarea{
+    min-height: 120px;
+}
+
+.formTab:focus-visible{
+    outline-offset: none;
+    outline: var(--yellow-active) solid 2px;
+}
+
+h3{
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+a {
+    color: var(--yellow-active);
+}
+
+a:hover {
+    color: white
+}
+
+.form-container {
+    margin-bottom: 3rem;
+}
+
+
+@media (max-width: 780px){
+    .form-container {
+        margin-bottom: 7rem;
+    }
+}
+
+@media (max-width:550px){
+    .avatar-container{
+        background-size: 30%;}
+}
+
+@media (max-width:440px){
+    .avatar-container{
+        background-size:40%;}
 }

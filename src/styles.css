@@ -20,7 +20,7 @@
     font-family: 'Work Sans', sans-serif;
 }
 
-h1, h2 {
+h1, h2, h3 {
     font-family: 'Belanosima', sans-serif;
 }
 
@@ -52,7 +52,6 @@ body{
     border-color: white;
     background-color: var(--background)
 }
-
 @media (max-width: 780px){
     .avatar-container{
         text-align: center;
