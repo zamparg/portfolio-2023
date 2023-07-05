@@ -39,6 +39,10 @@
             "tittle":"NodeJs"
         },
         {
+            "img":"https://dirteam.com/sander/wp-content/uploads/sites/2/2016/09/js-logo.png",
+            "tittle":"Javascript"
+        },
+        {
             "img":"https://www.iconninja.com/files/880/980/48/logo-mysql-development-code-icon.png",
             "tittle":"MySql"
         },
