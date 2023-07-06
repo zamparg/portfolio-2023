@@ -1,16 +1,17 @@
-import { Component } from '@angular/core';
+import { Component, AfterViewChecked } from '@angular/core';
 import { FormBuilder, FormGroup } from '@angular/forms';
+import { ScrollService } from 'src/app/scroll-service.service';
 
 @Component({
   selector: 'app-footer',
   templateUrl: './footer.component.html',
   styleUrls: ['./footer.component.css']
 })
-export class FooterComponent {
+export class FooterComponent implements AfterViewChecked{
 
   contactForm:FormGroup 
 
-  constructor(private _fb:FormBuilder){
+  constructor(private _fb:FormBuilder, private scrollService: ScrollService){
     this.contactForm= this._fb.group(
       {
       nombre:[''],
@@ -21,5 +22,16 @@ export class FooterComponent {
     }
 
 
-    onSend(){}
+  onSend(){}
+
+  ngOnInit() {}
+
+  ngAfterViewChecked() {
+    
+    const sectionElement = this.scrollService.getSectionElement();
+    console.log(sectionElement)
+    if (sectionElement) {
+      sectionElement.scrollIntoView({ behavior: 'smooth' });
+    }
+  }
   }

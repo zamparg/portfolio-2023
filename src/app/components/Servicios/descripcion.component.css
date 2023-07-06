@@ -50,11 +50,13 @@
 .card3 i {
     color: var(--green) ;    
 }
+
 .card1:hover{
     transition-property: background-color;
     transition-duration: .75s;
     background-color: var(--yellow-active);
 }
+
 
 .card2:hover{
     transition-property: background-color;
@@ -66,4 +68,12 @@
     transition-property: background-color;
     transition-duration: 1s;
     background-color: var(--green);
+}
+span{
+    color: var(--yellow-active);
+    text-decoration: underline;
+    cursor: pointer;
+}
+span:hover{
+    color: white
 }
