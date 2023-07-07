@@ -13,7 +13,6 @@ export class DescripcionComponent {
 
   storeSectionElement() {
     const sectionElement = document.getElementById('contact');
-    console.log(sectionElement)
     if (sectionElement) {
       this.scrollService.setSectionElement(sectionElement);
     }

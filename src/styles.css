@@ -20,7 +20,7 @@
     font-family: 'Work Sans', sans-serif;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
     font-family: 'Belanosima', sans-serif;
 }
 a {
@@ -45,6 +45,7 @@ body{
     background-color: var(--yellow);
     border-radius: 25px;
     font-weight:600 ;
+    color: var(--bs-body-color);;
 }
 
 @keyframes click{

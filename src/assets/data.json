@@ -72,5 +72,43 @@
             "img":"https://res.cloudinary.com/zamparg/image/upload/v1665771938/Portfolio/Habiliadades/AAe_fnqkgs.png",
             "tittle":"Adobe After Effects"
         }]
-      }
+      },
+    "recentWorks":[
+        {
+            "img":"https://2.bp.blogspot.com/_sDOe5HxTdMk/TTsZ5zq5dbI/AAAAAAAAB-k/LKIG16gsWjU/s1600/HTML5_Badge_128.png",
+            "imgFull":"https://2.bp.blogspot.com/_sDOe5HxTdMk/TTsZ5zq5dbI/AAAAAAAAB-k/LKIG16gsWjU/s1600/HTML5_Badge_128.png",
+            "tittle":"HTML5",
+            "short_description":"HTML5",
+            "description":"HTML5",
+            "url":"HTML5",
+            "category":"HTML5"
+        },
+        {
+            "img":"https://2.bp.blogspot.com/_sDOe5HxTdMk/TTsZ5zq5dbI/AAAAAAAAB-k/LKIG16gsWjU/s1600/HTML5_Badge_128.png",
+            "imgFull":"https://2.bp.blogspot.com/_sDOe5HxTdMk/TTsZ5zq5dbI/AAAAAAAAB-k/LKIG16gsWjU/s1600/HTML5_Badge_128.png",
+            "tittle":"HTML5",
+            "short_description":"HTML5",
+            "description":"HTML5",
+            "url":"HTML5",
+            "category":"HTML5"
+        },
+        {
+            "img":"https://2.bp.blogspot.com/_sDOe5HxTdMk/TTsZ5zq5dbI/AAAAAAAAB-k/LKIG16gsWjU/s1600/HTML5_Badge_128.png",
+            "imgFull":"https://2.bp.blogspot.com/_sDOe5HxTdMk/TTsZ5zq5dbI/AAAAAAAAB-k/LKIG16gsWjU/s1600/HTML5_Badge_128.png",
+            "tittle":"HTML5",
+            "short_description":"HTML5",
+            "description":"HTML5",
+            "url":"HTML5",
+            "category":"HTML5"
+        },
+        {
+            "img":"https://2.bp.blogspot.com/_sDOe5HxTdMk/TTsZ5zq5dbI/AAAAAAAAB-k/LKIG16gsWjU/s1600/HTML5_Badge_128.png",
+            "imgFull":"https://2.bp.blogspot.com/_sDOe5HxTdMk/TTsZ5zq5dbI/AAAAAAAAB-k/LKIG16gsWjU/s1600/HTML5_Badge_128.png",
+            "tittle":"HTML5",
+            "short_description":"HTML5",
+            "description":"HTML5",
+            "url":"HTML5",
+            "category":"HTML5"
+        }
+      ]
 }

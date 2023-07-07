@@ -25,13 +25,6 @@ h3{
     font-size: 1.2rem;
     font-weight: 400;
 }
-a {
-    color: var(--yellow-active);
-}
-
-a:hover {
-    color: white
-}
 
 .form-container {
     margin-bottom: 3rem;

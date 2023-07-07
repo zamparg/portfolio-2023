@@ -1,3 +1,74 @@
-<section class="container-fluid section-full d-flex flex-column justify-content-center gap-2">
+<section class="container-fluid section-full d-flex flex-column justify-content-center gap-2" id="trabajos">
     <h2>Trabajos Recientes</h2>
+
+    <div class="row mt-5 mb-2" *ngIf="data">
+        <div class="col-md-4" *ngFor="let work of getFrontendWorkArray() | slice:0:3; let i = index">
+            <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                <div class="mainflip">
+                    <div class="frontside" >
+                        <div class="card" ngClass="card{{i+1}}">
+                            <div class="card-body text-center">
+                                <p><img class=" img-fluid" [src]="work.img" alt="card image"></p>
+                                <h4 class="card-title">{{work.tittle}}</h4>
+                                <p class="card-text">{{work.short_description}}</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="backside">
+                        <div class="card">
+                            <div class="card-body text-center mt-4">
+                                <h4 class="card-title">{{work.tittle}}</h4>
+                                <p class="card-text">{{work.description}}</p>
+                                <a [href]="work.url" target="_blank" class="btn">Ver sitio</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+<div *ngIf="view" @onOff>
+        <div class="col-md-4"  *ngFor="let work of getFrontendWorkArray() | slice:3:(dataLength); let i = index">
+            <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                <div class="mainflip">
+                    <div class="frontside" >
+                        <div class="card" ngClass="card{{i+1}}">
+                            <div class="card-body text-center">
+                                <p><img class=" img-fluid" [src]="work.img" alt="card image"></p>
+                                <h4 class="card-title">{{work.tittle}}</h4>
+                                <p class="card-text">{{work.short_description}}</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="backside">
+                        <div class="card">
+                            <div class="card-body text-center mt-4">
+                                <h4 class="card-title">{{work.tittle}}</h4>
+                                <p class="card-text">{{work.description}}</p>
+                                <a [href]="work.url" target="_blank" class="btn">Ver sitio</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    </div>
+   
+
+
+
+<button class="btn view-more" *ngIf="dataLength>3 && view" (click)="viewLess()" @button
+>Ver Menos</button>
+
+<button class="btn view-more" *ngIf="dataLength>3 && !view" (click)="viewMore()" @button
+>Ver Más</button>
 </section>
+
+
+
+
+

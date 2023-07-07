@@ -23,5 +23,4 @@ export class QuiensoyComponent implements OnInit{
   changeSkill(skill:string){
     this.skill=skill
   }
-
 }
