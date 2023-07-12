@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { AfterViewChecked, Component, OnInit } from '@angular/core';
+import { ScrollService } from 'src/app/scroll-service.service';
 import { DataService } from 'src/app/services/data.service';
 
 @Component({
@@ -6,12 +7,22 @@ import { DataService } from 'src/app/services/data.service';
   templateUrl: './quiensoy.component.html',
   styleUrls: ['./quiensoy.component.css']
 })
-export class QuiensoyComponent implements OnInit{
+export class QuiensoyComponent implements OnInit, AfterViewChecked{
   skill:string = 'front'
   data:any
 
-  constructor(private _data:DataService){}
+  constructor(private _data:DataService, public scrollService:ScrollService){}
   
+  
+  ngAfterViewChecked() {
+    
+    const sectionElement = this.scrollService.getSectionElement();
+    if (sectionElement) {
+      sectionElement.scrollIntoView({ behavior: 'smooth' });
+    }
+  }
+
+
   ngOnInit(){
     this._data.getData().subscribe(
       res =>{

@@ -16,11 +16,12 @@ aside{
     display: flex;
     flex-direction: column;
     gap: 1rem;
-    --animate-delay:0s
+    --animate-delay:0s;
+    
 }
 
 .icon-menu{
-    font-size: 2.5em;
+    font-size: 2em;
     color: var(--yellow-active);
     --animate-duration: .6s;
 }
@@ -29,6 +30,7 @@ aside{
 }
 
 .icon1{
+
     animation-delay: 0s !important;
 }
 .icon2{
@@ -43,3 +45,7 @@ aside{
 
 
 @media (max-width: 450px){}
+
+.icon:not(.active) {
+    animation-name: backOutLeft;
+  }

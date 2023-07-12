@@ -3,11 +3,11 @@
     <h1>zamparg</h1>
 </nav>
 
-<aside *ngIf="active">
-    <a href="" class="animate__animated animate__backInLeft icon1"><i class="fa-regular fa-user icon-menu " aria-hidden="true"></i></a>
-    <a href="" class="animate__animated animate__backInLeft icon2"><i class="fa-solid fa-screwdriver-wrench icon-menu " aria-hidden="true"></i></a>
-    <a href="" class="animate__animated animate__backInLeft icon3"><i class="fa-solid fa-briefcase icon-menu " aria-hidden="true"></i></a>
-    <a href="" class="animate__animated animate__backInLeft icon4"><i class="fa-solid fa-paper-plane icon-menu " aria-hidden="true"></i></a>
+<aside class="animate__animated">
+    <span (click)="goTo('quien-soy')" class="animate__animated animate__backInLeft icon icon1" [ngClass]="{'active': active}"><i class="fa-regular fa-user icon-menu "></i></span>
+    <span (click)="goTo('servicios')" class="animate__animated animate__backInLeft icon icon2" [ngClass]="{'active': active}"><i class="fa-solid fa-screwdriver-wrench icon-menu "></i></span>
+    <span (click)="goTo('trabajos')" class="animate__animated animate__backInLeft icon icon3" [ngClass]="{'active': active}"><i class="fa-solid fa-briefcase icon-menu "></i></span>
+    <span (click)="goTo('contact')" class="animate__animated animate__backInLeft icon icon4" [ngClass]="{'active': active}"><i class="fa-solid fa-paper-plane icon-menu "></i></span>
 </aside>
 
 <!-- animate__backInLeft es para el menú, animate__backOutLeft para cuando se van -->

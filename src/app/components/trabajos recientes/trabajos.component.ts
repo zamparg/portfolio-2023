@@ -1,6 +1,7 @@
-import { Component, OnInit } from '@angular/core';
+import { AfterViewChecked, Component, OnInit } from '@angular/core';
 import { DataService } from 'src/app/services/data.service';
 import { trigger, state, transition, style, animate } from '@angular/animations';
+import { ScrollService } from 'src/app/scroll-service.service';
 
 
 @Component({
@@ -31,20 +32,26 @@ import { trigger, state, transition, style, animate } from '@angular/animations'
     ]),
     transition(':leave', [style({
       opacity: 1,
-      
+
     }),
     animate(400, style({ opacity: 0 }))
   ])
     ])
  ]
 })
-export class TrabajosComponent implements OnInit{
+export class TrabajosComponent implements OnInit, AfterViewChecked{
   data:any
   view:boolean =false
   dataLength!:number
 
-  constructor(private _data:DataService){}
-  
+  constructor(private _data:DataService, private scrollService:ScrollService){}
+  ngAfterViewChecked() {
+    
+    const sectionElement = this.scrollService.getSectionElement();
+    if (sectionElement) {
+      sectionElement.scrollIntoView({ behavior: 'smooth' });
+    }
+  }
   ngOnInit(){
     this._data.getData().subscribe(
       res =>{
