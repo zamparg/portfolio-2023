@@ -7,13 +7,30 @@
         </div>
 
         <div class="col form-container">
-            <form action="" #cForm="ngForm" class="row gap-4 p-2 pb-5" id="contactForm" (ngSubmit)="onSend()" [formGroup]="contactForm">
-                <input type="text" formControlName="nombre" placeholder="Nombre" class="col formTab">
-                <input type="text" formControlName="email" placeholder="Email" class="col formTab">
-                <input type="text" formControlName="asunto" placeholder="Asunto" class="col-md-12 formTab">
-                <textarea type="text" formControlName="comentario" placeholder="Mensaje" class="col-md-12 formTab"></textarea>
+            <form action="https://formspree.io/f/xzblbynj" method="POST" class="row gap-4 p-2 pb-5"  
+            cForm="ngForm"  id="contactForm" (ngSubmit)="onSend($event)" [formGroup]="contactForm">
+
+                <input type="text" formControlName="nombre" placeholder="Nombre" class="col formTab" name="nombre">
+                <input type="email" formControlName="email" placeholder="Email" class="col formTab" name="email">
+                <input type="text" formControlName="asunto" placeholder="Asunto" class="col-md-12 formTab" name="asunto">
+                <textarea type="text" formControlName="comentario" placeholder="Mensaje" class="col-md-12 formTab" name="comentario"></textarea>
                 <button type="submit" class="btn">Enviar Mensaje</button>
             </form>
         </div>
     </div>
 </section>
+
+
+<div class="screen spinner-screen" *ngIf="sending">
+    <mat-spinner></mat-spinner>
+</div>
+
+<div class="screen wait-screen " *ngIf="received">
+    <p>¡Mensaje Enviado!</p>
+    <button class="btn button" (click)="close()">Aceptar</button>
+</div>
+
+<div class="screen wait-screen" *ngIf="error">
+    <p>¡Error al crear usuario!</p>
+    <button class="btn button" (click)="close()">Volver a intentar</button>
+</div>

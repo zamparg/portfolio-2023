@@ -4,7 +4,10 @@
 .card-title{
     color: white;
 }
-
+.card-small{
+    font-style: italic ;
+    color: var(--yellow-active);
+}
 .view-more {
     text-align: center;
     max-width: 120px;
@@ -107,19 +110,19 @@
 .card1{
     border: var(--yellow-active) 2px solid;
 }
-.card1 h4{
+.card1 h4, .card1 small{
     color: var(--yellow-active)
 }
 .card2{
     border:var(--blue) 2px solid;
 }
-.card2 h4{
+.card2 h4, .card2 small{
     color:var(--blue)
 }
 .card3{
     border: var(--green) 2px solid;
 }
-.card3 h4{
+.card3 h4, .card3 small{
     color:var(--green)
 }
 .card3 .btn{

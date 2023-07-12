@@ -9,5 +9,10 @@ import { Component } from '@angular/core';
   }
 })
 export class NavbarComponent {
+  active:boolean=false
 
+
+  onActive(){
+    this.active=!this.active
+  }
 }

@@ -1,7 +1,13 @@
 <nav class="container-fluid d-flex gap-2 align-items-center">
-    <a href=""><i class="fa-solid fa-bars fa-2xl me-2"></i></a>
+    <span (click)="onActive()"> <i class="fa-solid fa-bars fa-2xl me-2" [ngClass]="{'active':active}"></i></span>
     <h1>zamparg</h1>
 </nav>
 
+<aside *ngIf="active">
+    <a href="" class="animate__animated animate__backInLeft icon1"><i class="fa-regular fa-user icon-menu " aria-hidden="true"></i></a>
+    <a href="" class="animate__animated animate__backInLeft icon2"><i class="fa-solid fa-screwdriver-wrench icon-menu " aria-hidden="true"></i></a>
+    <a href="" class="animate__animated animate__backInLeft icon3"><i class="fa-solid fa-briefcase icon-menu " aria-hidden="true"></i></a>
+    <a href="" class="animate__animated animate__backInLeft icon4"><i class="fa-solid fa-paper-plane icon-menu " aria-hidden="true"></i></a>
+</aside>
 
 <!-- animate__backInLeft es para el menú, animate__backOutLeft para cuando se van -->

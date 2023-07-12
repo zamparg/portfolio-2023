@@ -12,7 +12,7 @@
 .card{
     margin-bottom: 1rem;
     background-color: rgb(41, 41, 41);
-    
+    min-height: 240px ;
 }
 .card:hover{
     animation: pulse; /* referring directly to the animation's @keyframe declaration */
@@ -40,15 +40,19 @@
 .card3{
     border: var(--green) 2px solid;
 }
-.card1 i {
+.card1 i, .card1 em {
     color: var(--yellow-active) ;
 
 }
-.card2 i {
+.card2 i, .card2 em {
     color: var(--blue) ;    
 }
-.card3 i {
+.card3 i, .card3 em {
     color: var(--green) ;    
+}
+
+.card:hover em{
+    color: white;
 }
 
 .card1:hover{

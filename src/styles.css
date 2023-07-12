@@ -19,6 +19,9 @@
     color: white;
     font-family: 'Work Sans', sans-serif;
 }
+*::selection{
+    background-color: var(--yellow);
+}
 
 h1, h2, h3, h4 {
     font-family: 'Belanosima', sans-serif;
@@ -64,4 +67,9 @@ body{
     .avatar-container{
         text-align: center;
     }
+}
+
+.blur{
+    transition: filter 1s;
+    filter: blur(2px);
 }

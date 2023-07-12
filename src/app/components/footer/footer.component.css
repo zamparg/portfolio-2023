@@ -46,3 +46,38 @@ h3{
     .avatar-container{
         background-size:40%;}
 }
+
+
+.screen{
+    height: 140px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+.wait-screen{
+    animation: bounceDef .5s ease-in;
+    background-color: var(--background);
+    border-radius: 10px;
+    border: var(--yellow-active) solid 2px;
+    
+}
+
+mat-spinner{
+    height: 50% !important;
+    margin: auto;
+    --mdc-circular-progress-active-indicator-color: var(--yellow-active);
+}
+
+@keyframes bounceDef{
+    0% { opacity: 0; scale: 0.75; }
+    75%{ scale: 1.1;}
+    100% {opacity: 1; scale: 1; }
+}

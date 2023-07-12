@@ -75,40 +75,31 @@
       },
     "recentWorks":[
         {
-            "img":"https://2.bp.blogspot.com/_sDOe5HxTdMk/TTsZ5zq5dbI/AAAAAAAAB-k/LKIG16gsWjU/s1600/HTML5_Badge_128.png",
-            "imgFull":"https://2.bp.blogspot.com/_sDOe5HxTdMk/TTsZ5zq5dbI/AAAAAAAAB-k/LKIG16gsWjU/s1600/HTML5_Badge_128.png",
-            "tittle":"HTML5",
-            "short_description":"HTML5",
-            "description":"HTML5",
-            "url":"HTML5",
-            "category":"HTML5"
+            "img":"https://hermenegildozampar.com.ar/wp-content/uploads/2020/09/footer-logo-1.png",
+            "imgFull":"https://hermenegildozampar.com.ar/wp-content/uploads/2020/09/footer-logo-1.png",
+            "tittle":"ISI",
+            "short_description":"Campus Virtual",
+            "description":"Desarrollo de Campus virtual personalizado. Permite creación de cursos y asignación de clases. ",
+            "url":"http://www.hermenegildoZampar.com.ar",
+            "category":"Angular | NodeJs"
         },
         {
-            "img":"https://2.bp.blogspot.com/_sDOe5HxTdMk/TTsZ5zq5dbI/AAAAAAAAB-k/LKIG16gsWjU/s1600/HTML5_Badge_128.png",
-            "imgFull":"https://2.bp.blogspot.com/_sDOe5HxTdMk/TTsZ5zq5dbI/AAAAAAAAB-k/LKIG16gsWjU/s1600/HTML5_Badge_128.png",
-            "tittle":"HTML5",
-            "short_description":"HTML5",
-            "description":"HTML5",
-            "url":"HTML5",
-            "category":"HTML5"
+            "img":"https://res.cloudinary.com/zamparg/image/upload/v1689179187/iching/pngwing.com_mdwq9n_evdn4a.png",
+            "imgFull":"https://res.cloudinary.com/zamparg/image/upload/v1689179187/iching/pngwing.com_mdwq9n_evdn4a.png",
+            "tittle":"I-Ching",
+            "short_description":"App Web - Tirada de Iching",
+            "description":"Desarrollo de lógica para el funcionamiento de una tirada interactiva del Oráculo I-ching con Javascript",
+            "url":"https://librodelasmutaciones.com.ar/",
+            "category":"JS"
         },
         {
-            "img":"https://2.bp.blogspot.com/_sDOe5HxTdMk/TTsZ5zq5dbI/AAAAAAAAB-k/LKIG16gsWjU/s1600/HTML5_Badge_128.png",
-            "imgFull":"https://2.bp.blogspot.com/_sDOe5HxTdMk/TTsZ5zq5dbI/AAAAAAAAB-k/LKIG16gsWjU/s1600/HTML5_Badge_128.png",
-            "tittle":"HTML5",
-            "short_description":"HTML5",
-            "description":"HTML5",
-            "url":"HTML5",
-            "category":"HTML5"
-        },
-        {
-            "img":"https://2.bp.blogspot.com/_sDOe5HxTdMk/TTsZ5zq5dbI/AAAAAAAAB-k/LKIG16gsWjU/s1600/HTML5_Badge_128.png",
-            "imgFull":"https://2.bp.blogspot.com/_sDOe5HxTdMk/TTsZ5zq5dbI/AAAAAAAAB-k/LKIG16gsWjU/s1600/HTML5_Badge_128.png",
-            "tittle":"HTML5",
-            "short_description":"HTML5",
-            "description":"HTML5",
-            "url":"HTML5",
-            "category":"HTML5"
+            "img":"https://res.cloudinary.com/zamparg/image/upload/v1689179576/Screens/favicon_ayepks.ico",
+            "imgFull":"https://res.cloudinary.com/zamparg/image/upload/v1689179576/Screens/favicon_ayepks.ico",
+            "tittle":"Amazing Events",
+            "short_description":"Sitio de Eventos",
+            "description":" Carrito de compras con filtrado de contenido avanzado, Contenido dinámico y Muestreo de Estadísticas",
+            "url":"https://zamparg.github.io/Amazing_Events_Zampar/",
+            "category":"HTML, CSS, JS"
         }
       ]
 }

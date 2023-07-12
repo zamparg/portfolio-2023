@@ -75,3 +75,6 @@ li{
    transform: scale(1.1)
 }
 
+.color-yellow{
+    color: var(--yellow-active);
+}
