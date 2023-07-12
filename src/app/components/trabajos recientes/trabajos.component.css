@@ -122,3 +122,6 @@
 .card3 h4{
     color:var(--green)
 }
+.card3 .btn{
+    background-color:var(--green)
+}

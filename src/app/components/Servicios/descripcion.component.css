@@ -56,8 +56,6 @@
     transition-duration: .75s;
     background-color: var(--yellow-active);
 }
-
-
 .card2:hover{
     transition-property: background-color;
     transition-duration: 1s;
