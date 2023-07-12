@@ -11,11 +11,13 @@ import { ScrollService } from 'src/app/scroll-service.service';
 })
 export class NavbarComponent{
   active:boolean=false
+  init:boolean=true
 
   constructor( private scrollService:ScrollService){}
 
   onActive(){
     this.active=!this.active
+    this.init=false
   }
 
 

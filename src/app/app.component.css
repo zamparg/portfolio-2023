@@ -7,3 +7,26 @@
     flex-direction: column;
     justify-content: space-between;
 }
+
+.btn-back{
+    padding: 1rem;
+    background-color: var(--background);
+    border: var(--yellow-active) 2px solid;
+    border-radius: 100%;
+    display: inline-block;
+    height: 4em;
+    width: 4em;
+
+    position: fixed;
+    bottom: 20px;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+ 
+  .btn-back.visible {
+    /* Estilo del botón cuando es visible */
+    opacity: 1;
+    visibility: visible;
+  }
