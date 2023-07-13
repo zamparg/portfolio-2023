@@ -78,3 +78,6 @@ li{
 .color-yellow{
     color: var(--yellow-active);
 }
+.text-justify{
+    text-align: justify;
+}
