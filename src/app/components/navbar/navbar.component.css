@@ -53,3 +53,7 @@ aside{
 .hide{
     display: none;
 }
+
+span{
+    z-index: 10;
+}

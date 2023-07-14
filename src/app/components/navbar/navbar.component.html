@@ -1,5 +1,5 @@
 <nav class="container-fluid d-flex gap-2 align-items-center">
-    <span (click)="onActive()"> <i class="fa-solid fa-bars fa-2xl me-2" [ngClass]="{'active':active}"></i></span>
+    <span (click)="onActive()"> <i class="fa-solid fa-bars fa-2xl me-2" [class.active]="active"></i></span>
     <h1>zamparg</h1>
 </nav>
 
@@ -9,5 +9,3 @@
     <span (click)="goTo('trabajos')" class="animate__animated animate__backInLeft icon icon3 " [ngClass]="{'active': active, 'hide':init}"><i class="fa-solid fa-briefcase icon-menu "></i></span>
     <span (click)="goTo('contact')" class="animate__animated animate__backInLeft icon icon4 " [ngClass]="{'active': active, 'hide':init}"><i class="fa-solid fa-paper-plane icon-menu "></i></span>
 </aside>
-
-<!-- quitar clase si está tal... -->

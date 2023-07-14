@@ -22,7 +22,6 @@ export class QuiensoyComponent implements OnInit, AfterViewChecked{
     }
   }
 
-
   ngOnInit(){
     this._data.getData().subscribe(
       res =>{

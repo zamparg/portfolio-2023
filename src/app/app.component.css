@@ -8,6 +8,7 @@
     justify-content: space-between;
 }
 
+
 .btn-back{
     padding: 1rem;
     background-color: var(--background);
@@ -16,17 +17,24 @@
     display: inline-block;
     height: 4em;
     width: 4em;
-
-    position: fixed;
     bottom: 20px;
-    visibility: hidden;
+    right: 10px;
+    position: fixed;
+    /* display: none;
     opacity: 0;
-    transition: opacity 0.3s ease, visibility 0.3s ease;
+    transition: opacity 0.3s ease, visibility 0.3s ease; */
 }
 
- 
-  .btn-back.visible {
-    /* Estilo del botón cuando es visible */
-    opacity: 1;
-    visibility: visible;
-  }
+ .btn-back:hover {
+     transition: background-color .5s; 
+    background-color: var(--yellow-active);
+    border: var(--background) 2px solid;
+ }
+
+ .btn-back:hover i{
+
+    color:var(--background) ;}
+
+.btn-back.visible {
+    display:inline-block;
+  } 
