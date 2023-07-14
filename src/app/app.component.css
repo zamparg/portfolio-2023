@@ -20,9 +20,11 @@
     bottom: 20px;
     right: 10px;
     position: fixed;
-    /* display: none;
+    
+    /*
     opacity: 0;
     transition: opacity 0.3s ease, visibility 0.3s ease; */
+    box-shadow: black 8px 8px 10px;
 }
 
  .btn-back:hover {
@@ -35,6 +37,13 @@
 
     color:var(--background) ;}
 
-.btn-back.visible {
+.btn-back.active {
     display:inline-block;
   } 
+
+.btn-back:not(.active) {
+      animation-name: fadeOut;
+      opacity: 0;
+      visibility: hidden;
+      transition: opacity .25s ease, visibility .5s;
+}

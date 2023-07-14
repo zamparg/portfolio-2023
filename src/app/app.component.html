@@ -10,6 +10,6 @@
         </div>
     </div>
 </div>
-<button class="btn-back text-center animate__animated animate__fadeIn" (click)="goToTop()" *ngIf="button">
+<button class="btn-back text-center animate__animated animate__fadeIn" [ngClass]="{'active': button, 'inactive': !button}" (click)="goToTop()" >
     <i class="fa-solid fa-jet-fighter-up fa-2xl icon-top"></i>
 </button>
