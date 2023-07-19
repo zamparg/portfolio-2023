@@ -13,16 +13,14 @@ export class DescripcionComponent implements AfterViewChecked{
   
   ngAfterViewChecked() {
     
-    const sectionElement = this.scrollService.getSectionElement();
-    if (sectionElement) {
-      sectionElement.scrollIntoView({ behavior: 'smooth' });
-    }
+    // const sectionElement = this.scrollService.getSectionElement();
+    // if (sectionElement) {
+    //   sectionElement.scrollIntoView({ behavior: 'smooth' });
+    // }
   }
 storeSectionElement() {
     const sectionElement = document.getElementById('contact');
-    if (sectionElement) {
-      this.scrollService.setSectionElement(sectionElement);
-    }
+    sectionElement?.scrollIntoView({ behavior: 'smooth' });
   }
 
   

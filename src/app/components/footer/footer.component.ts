@@ -35,11 +35,7 @@ export class FooterComponent implements AfterViewChecked{
   ngOnInit() {}
 
   ngAfterViewChecked() {
-    
-    const sectionElement = this.scrollService.getSectionElement();
-    if (sectionElement) {
-      sectionElement.scrollIntoView({ behavior: 'smooth' });
-    }
+    //const sectionElement = this.scrollService.getSectionElement();
   }
 
 

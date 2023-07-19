@@ -26,7 +26,7 @@ export class HeaderComponent implements AfterViewChecked, OnInit {
           this.intersectionObserver.observe(this.target);
         }
       }, 1000);
-      sectionElement.scrollIntoView({ behavior: 'smooth' });
+      //sectionElement.scrollIntoView({ behavior: 'smooth' });
     }
 
 
@@ -40,13 +40,11 @@ export class HeaderComponent implements AfterViewChecked, OnInit {
         ([entry]) => {
           if (entry.isIntersecting) {
             this.scrollService.setVisibility(false);
-            const sectionElement = document.getElementById('header');
-            if (sectionElement) this.scrollService.setSectionElement(sectionElement);
+            //const sectionElement = document.getElementById('header');
+            //if (sectionElement) this.scrollService.setSectionElement(sectionElement);
             //console.log(this.scrollService.getVisibility());
           } else {
-            this.scrollService.setVisibility(true);
-
-           
+            this.scrollService.setVisibility(true);       
             //console.log(this.scrollService.getVisibility());
           }
         },

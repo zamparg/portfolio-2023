@@ -26,8 +26,9 @@ export class AppComponent implements OnInit {
   goToTop() {
     this.scrollService.setListener(false)
     const sectionElement = document.getElementById('header');
-    if (sectionElement) {
-      this.scrollService.setSectionElement(sectionElement);
-    }
+    sectionElement?.scrollIntoView({ behavior: 'smooth' });
+    // if (sectionElement) {
+    //   this.scrollService.setSectionElement(sectionElement);
+    // }
   }
 }

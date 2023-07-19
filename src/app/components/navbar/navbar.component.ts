@@ -27,9 +27,10 @@ export class NavbarComponent{
     console.log('SE SUPONE QUE DETUVE LA EJECUCIÓN')
     this.scrollService.setListener(false)
     const sectionElement = document.getElementById(id);
-    if (sectionElement) {
-      this.scrollService.setSectionElement(sectionElement);
-    }
+    sectionElement?.scrollIntoView({ behavior: 'smooth' });
+    // if (sectionElement) {
+    //   this.scrollService.setSectionElement(sectionElement);
+    // }
   }
 
 

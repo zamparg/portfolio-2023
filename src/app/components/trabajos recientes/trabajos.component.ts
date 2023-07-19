@@ -47,10 +47,10 @@ export class TrabajosComponent implements OnInit, AfterViewChecked{
   constructor(private _data:DataService, private scrollService:ScrollService){}
   ngAfterViewChecked() {
     
-    const sectionElement = this.scrollService.getSectionElement();
-    if (sectionElement) {
-      sectionElement.scrollIntoView({ behavior: 'smooth' });
-    }
+    // const sectionElement = this.scrollService.getSectionElement();
+    // if (sectionElement) {
+    //   sectionElement.scrollIntoView({ behavior: 'smooth' });
+    // }
   }
   ngOnInit(){
     this._data.getData().subscribe(
