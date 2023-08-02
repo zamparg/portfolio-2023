@@ -24,7 +24,7 @@ export class NavbarComponent{
 
   goTo(id:string) { 
     
-    console.log('SE SUPONE QUE DETUVE LA EJECUCIÓN')
+    //console.log('SE SUPONE QUE DETUVE LA EJECUCIÓN')
     this.scrollService.setListener(false)
     const sectionElement = document.getElementById(id);
     sectionElement?.scrollIntoView({ behavior: 'smooth' });

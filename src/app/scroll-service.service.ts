@@ -31,7 +31,7 @@ export class ScrollService {
       this.listener.next(value);
       setTimeout(() => {
         this.listener.next(!value);
-        console.log('SE SUPONE QUE VOLVIO LA EJECUCIÓN')
+        //console.log('SE SUPONE QUE VOLVIO LA EJECUCIÓN')
       }, 1000);
     }
   }

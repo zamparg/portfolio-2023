@@ -42,10 +42,10 @@ export class HeaderComponent implements AfterViewChecked, OnInit {
             this.scrollService.setVisibility(false);
             //const sectionElement = document.getElementById('header');
             //if (sectionElement) this.scrollService.setSectionElement(sectionElement);
-            //console.log(this.scrollService.getVisibility());
+            ////console.log(this.scrollService.getVisibility());
           } else {
             this.scrollService.setVisibility(true);       
-            //console.log(this.scrollService.getVisibility());
+            ////console.log(this.scrollService.getVisibility());
           }
         },
         { threshold: 0.5 } // Ajusta el umbral según tus necesidades
@@ -56,7 +56,7 @@ export class HeaderComponent implements AfterViewChecked, OnInit {
 // ESTE ES EL ESCUCHADOR DE SI EL LISTENER ESTÄ ACTIVO. 
     this.scrollService.getListener().subscribe((value) => {
       this.listener = value;
-      console.log('Valor de Listener:', value);
+      //console.log('Valor de Listener:', value);
     });
   }
 }

@@ -19,7 +19,7 @@ export class AppComponent implements OnInit {
   ngOnInit() {
     this.scrollService.getVisibility().subscribe((value) => {
       this.button = value;
-      console.log('Valor de visibilidad:', value);
+      //console.log('Valor de visibilidad:', value);
     });
   }
 
