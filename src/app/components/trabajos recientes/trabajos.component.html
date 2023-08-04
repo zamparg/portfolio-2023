@@ -29,7 +29,7 @@
             </div>
         </div>
     
-<div *ngIf="view" @onOff>
+<div *ngIf="view" class="row mt-5 mb-2" @onOff>
         <div class="col-md-4"  *ngFor="let work of getFrontendWorkArray() | slice:3:(dataLength); let i = index">
             <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
                 <div class="mainflip">

@@ -83,6 +83,16 @@
             "url":"http://www.hermenegildoZampar.com.ar",
             "category":"Angular | NodeJs"
         },
+
+        {
+            "img":"https://res.cloudinary.com/zamparg/image/upload/v1691079240/Portfolio/nuevaera_m7ygpi.png",
+            "imgFull":"https://res.cloudinary.com/zamparg/image/upload/v1691079240/Portfolio/nuevaera_m7ygpi.png",
+            "tittle":"Nueva Era Servicios",
+            "short_description":"Empresa de servicios de construcción",
+            "description":"Sitio descriptivo para empresa de servicios, contacto y galería",
+            "url":"http://nuevaeraservicios.com.ar/",
+            "category":"HTML5 | BOOTSTRAP | JS"
+        },
         {
             "img":"https://res.cloudinary.com/zamparg/image/upload/v1689179187/iching/pngwing.com_mdwq9n_evdn4a.png",
             "imgFull":"https://res.cloudinary.com/zamparg/image/upload/v1689179187/iching/pngwing.com_mdwq9n_evdn4a.png",
@@ -93,13 +103,24 @@
             "category":"JS"
         },
         {
+            "img":"https://res.cloudinary.com/zamparg/image/upload/v1691079239/Portfolio/logo-lubri_f72w7y.png",
+            "imgFull":"https://res.cloudinary.com/zamparg/image/upload/v1691079239/Portfolio/logo-lubri_f72w7y.png",
+            "tittle":"Lubricentro Lubriman",
+            "short_description":"Landing para lubricentro",
+            "description":"Desarrollo de Landing para Lubricentro, sitio simple con contacto.",
+            "url":"https://lubricentrolubriman.com.ar/",
+            "category":"HTML5 | CSS3"
+        },
+
+
+        {
             "img":"https://res.cloudinary.com/zamparg/image/upload/v1689179576/Screens/favicon_ayepks.ico",
             "imgFull":"https://res.cloudinary.com/zamparg/image/upload/v1689179576/Screens/favicon_ayepks.ico",
             "tittle":"Amazing Events",
             "short_description":"Sitio de Eventos",
             "description":" Carrito de compras con filtrado de contenido avanzado, Contenido dinámico y Muestreo de Estadísticas",
             "url":"https://zamparg.github.io/Amazing_Events_Zampar/",
-            "category":"HTML, CSS, JS"
+            "category":"HTML | CSS | JS | VUE"
         }
       ]
 }
