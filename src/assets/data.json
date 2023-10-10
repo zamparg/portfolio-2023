@@ -79,13 +79,22 @@
       },
     "recentWorks":[
         {
-            "img":"https://hermenegildozampar.com.ar/wp-content/uploads/2020/09/footer-logo-1.png",
-            "imgFull":"https://hermenegildozampar.com.ar/wp-content/uploads/2020/09/footer-logo-1.png",
+            "img":"https://res.cloudinary.com/dt8a16ucf/image/upload/v1689172386/user_ijep3u.png",
+            "imgFull":"https://res.cloudinary.com/dt8a16ucf/image/upload/v1689172386/user_ijep3u.png",
             "tittle":"ISI",
             "short_description":"Campus Virtual",
             "description":"Desarrollo de Campus virtual personalizado. Permite creación de cursos y asignación de clases. ",
-            "url":"http://www.hermenegildoZampar.com.ar",
+            "url":" https://campusvirtual-bddc2.web.app/",
             "category":"ANGULAR | NODEJS"
+        },
+        {
+            "img":"https://hermenegildozampar.com.ar/wp-content/uploads/2020/09/footer-logo-1.png",
+            "imgFull":"https://hermenegildozampar.com.ar/wp-content/uploads/2020/09/footer-logo-1.png",
+            "tittle":"ISI",
+            "short_description":"Sitio Institucional",
+            "description":"Desarrollo de Sitio institucional informativo, con detalles de cursos.",
+            "url":"http://www.hermenegildoZampar.com.ar",
+            "category":"WORDPRESS"
         },
         {
             "img":"https://esgrimascaramouche.com/wp-content/uploads/2023/08/cropped-scaramouche.webp",
@@ -97,6 +106,7 @@
             "category":"WORDPRESS"
         },
 
+
         {
             "img":"https://res.cloudinary.com/zamparg/image/upload/v1691079240/Portfolio/nuevaera_m7ygpi.png",
             "imgFull":"https://res.cloudinary.com/zamparg/image/upload/v1691079240/Portfolio/nuevaera_m7ygpi.png",
@@ -105,6 +115,15 @@
             "description":"Sitio descriptivo para empresa de servicios, contacto y galería",
             "url":"http://nuevaeraservicios.com.ar/",
             "category":"HTML5 | BOOTSTRAP | JS"
+        },
+        {
+            "img":"https://elteatrodigital.com/wp-content/uploads/2023/09/FAVICON.png",
+            "imgFull":"https://elteatrodigital.com/wp-content/uploads/2023/09/FAVICON.png",
+            "tittle":"El Teatro Digital",
+            "short_description":"- EN PROCESO -",
+            "description":"Sitio institucional + carrito de compras para programa de Radio",
+            "url":"http://elteatrodigital.com/",
+            "category":"WORDPRESS"
         },
         {
             "img":"https://res.cloudinary.com/zamparg/image/upload/v1689179187/iching/pngwing.com_mdwq9n_evdn4a.png",
