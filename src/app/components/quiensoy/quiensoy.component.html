@@ -1,43 +1,35 @@
 <section class="container-fluid figure justify-content-center align-items-center gap-2" id="quien-soy">
     
-    <div class="row mt-5 mb-5">
+    <div class="row mt-5 mb-5 gap-4">
         
-        <div class="col-md-3 avatar-container d-flex justify-content-center flex-column" >
-            <figure class="figure text-center ">
-                <img src="https://res.cloudinary.com/zamparg/image/upload/v1688049724/AVATAR2_jako0d.png" alt=""
-                    class="figure-img img-fluid avatar m-auto">
-            </figure>
-            <h2 class="text-center">Quien Soy</h2>
+        <div class="col about-container row">
+
+                
+                <h1 class="text-center title">Sobre Mí</h1>
+                <h2 class="text-center">Gastón Zampar</h2>
+
+                <div class="d-flex gap-4 icon-container mt-2 justify-content-center ">
+                    <a href="https://github.com/zamparg/" target="_blank"><i class="fa-brands fa-github fa-lg icon"></i></a>
+                    <a href="https://www.linkedin.com/in/zamparg/" target="_blank"><i
+                            class="fa-brands fa-linkedin fa-lg icon"></i></a>
+                    <a href="https://api.whatsapp.com/send?phone=541167433113" target="_blank"><i
+                            class="fa-brands fa-whatsapp fa-lg icon"></i></a>
+                    <a href="mailto:zamparg@hotmail.com"><i
+                        class="fa-regular fa-envelope fa-lg icon"></i></a>
+                </div>
+                <span class="text-start mb-2">
+                    Soy desarrollador web front-end especializado en Angular y enfocado en la lógica de programación. 
+                    Mi objetivo es crear aplicaciones web eficientes y funcionales que brinden una experiencia de usuario excepcional.
+                </span>
+                <div class="text-center mt-2 ">
+
+                    <a  href="../../../assets/CV Gaston Zampar.pdf" download="CV-Zamparg" class="btn mb-2">Descargar CV</a>
+                </div>
+                        
+            </div>
+            
         </div>
 
-        <div class="col about-container row">
-            <div class="about-info col-md-6 mb-2">
-       
-                <p class="px-2 text-justify">
-                    Hola, soy Gastón. Soy desarrollador<b class="color-yellow"> Full Stack </b>. Me apasiona mi trabajo porque puedo poner en práctica no sólo conocimientos técnicos, sino también desarrollar un aspecto mucho más creativo y desafiante donde siempre hay algo nuevo por aprender. <br>
-                    <!-- Aunque vengo del mundo del diseño, descubrí que tengo una mentalidad muy orientada a la lógica y la resolución de problemas, por eso <b class="color-yellow">me dedico a la conjunción de las dos cosas.</b> <br> Me gusta investigar y ofrecer soluciones personalizadas. -->
-                    <br> <em>Para mí, cada proyecto es único.</em></p>
-                <a href="../../../assets/CV Gaston Zampar.pdf" download="CV-Zamparg" class="btn mb-2">Descargar CV</a>
-            </div>
-            <div class="about-stats col-md-6 gap-2 px-2">
-                <h4 (click)="changeSkill('front', $event)">FrontEnd</h4>
-                <div class="progress mb-2">
-                    <div class="progress-bar progress-bar-striped progress-bar-animated progress-bar-front" role="progressbar"
-                        aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%"></div>
-                </div>
-                <h4 (click)="changeSkill('back', $event)">Backend</h4>
-                <div class="progress mb-2">
-                    <div class="progress-bar progress-bar-striped progress-bar-animated progress-bar-back" role="progressbar"
-                        aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%"></div>
-                </div>
-                <h4 (click)="changeSkill('dis', $event)">Diseño</h4>
-                <div class="progress">
-                    <div class="progress-bar progress-bar-striped progress-bar-animated progress-bar-ilustracion" role="progressbar"
-                        aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 90%"></div>
-                </div>
-            </div>
-        </div>
-    </div>
     <div class="p-2">
         <div class="mt-4">
             <ul>
@@ -47,24 +39,87 @@
             </ul>
         </div>
         <div class="skillContainer mt-4 mb-4 " *ngIf="data">
-            <div *ngIf="skill=='front'" class="row mt-3 animate__animated animate__fadeIn gap-2">
-                <div *ngFor="let skill of data.frontend" class="col d-flex flex-column justify-content-between text-center align-items-center "> 
-                        <img [src]="skill.img" alt="" class="img-fluid icon-skill mb-2">
-                        <small>{{skill.tittle}}</small>  
+            <div *ngIf="skill=='front'" class="row g-2 gy-2 mt-3 animate__animated animate__fadeIn justify-content-around">
+                <div *ngFor="let skill of data.frontend" class="col-2 col-md-1 d-flex flex-column justify-content-between text-center align-items-center "> 
+                    
+                    <circle-progress
+                    [percent]="skill.percent"
+                    [radius]="100"
+                    
+                    [title]="skill.tittle"
+                  
+                    [outerStrokeWidth]="10"
+                    [outerStrokeColor]="'#ffa600'"
+                    [showInnerStroke]="false"
+                    [responsive]="true"
+                    [animation]="true"
+                    [animationDuration]="750"
+                    
+
+                    [showImage]="true"
+                    [imageSrc]="skill.img"
+                    [imageHeight]="105"
+                    [imageWidth]="105"
+
+                    ></circle-progress>
+
+                        <small class="mt-2">{{skill.tittle}}</small>
                 </div>
             </div>
-            <div *ngIf="skill=='back'" class="row mt-3 animate__animated animate__fadeIn">
-                <div *ngFor="let skill of data.backend" class="col d-flex flex-column justify-content-between text-center align-items-center"> 
-                        <img [src]="skill.img" alt="" class="img-fluid icon-skill mb-2">
-                        <small>{{skill.tittle}}</small>  
+            <div *ngIf="skill=='back'" class="row g-2 gy-2 mt-3 animate__animated animate__fadeIn justify-content-around">
+                <div *ngFor="let skill of data.backend" class="col-2 col-md-1 d-flex flex-column justify-content-between text-center align-items-center "> 
+                    <circle-progress
+                    [percent]="skill.percent"
+                    [radius]="100"
+                    
+                    [title]="skill.tittle"
+                  
+                    [outerStrokeWidth]="10"
+                    [outerStrokeColor]="'#ffa600'"
+                    [showInnerStroke]="false"
+                    [responsive]="true"
+                    [animation]="true"
+                    [animationDuration]="750"
+                    
+
+                    [showImage]="true"
+                    [imageSrc]="skill.img"
+                    [imageHeight]="105"
+                    [imageWidth]="105"
+
+                    ></circle-progress>
+
+                        <small class="mt-2">{{skill.tittle}}</small>
                 </div>
             </div>
-            <div *ngIf="skill=='dis'" class="row mt-3 animate__animated animate__fadeIn">
-                <div *ngFor="let skill of data.dis" class="col d-flex flex-column justify-content-between text-center align-items-center"> 
-                        <img [src]="skill.img" alt="" class="img-fluid icon-skill mb-2">
-                        <small>{{skill.tittle}}</small>  
+            <div *ngIf="skill=='dis'" class="row g-2 gy-2 mt-3 animate__animated animate__fadeIn justify-content-around">
+                <div *ngFor="let skill of data.dis" class="col-2 col-md-1 d-flex flex-column justify-content-between text-center align-items-center ">
+                    <circle-progress
+                    [percent]="skill.percent"
+                    [radius]="100"
+                    
+                    [title]="skill.tittle"
+                  
+                    [outerStrokeWidth]="10"
+                    [outerStrokeColor]="'#ffa600'"
+                    [showInnerStroke]="false"
+                    [responsive]="true"
+                    [animation]="true"
+                    [animationDuration]="750"
+                    
+
+                    [showImage]="true"
+                    [imageSrc]="skill.img"
+                    [imageHeight]="105"
+                    [imageWidth]="105"
+
+                    ></circle-progress>
+
+                        <small class="mt-2">{{skill.tittle}}</small>
                 </div>
             </div>
         </div>
     </div>
 </section>
+
+

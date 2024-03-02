@@ -29,7 +29,14 @@ h4 {
   font-weight: bolder;
   text-transform: uppercase;
 }
+.title::selection{
+    background-color: white !important;
 
+}
+.title{    
+color: var(--yellow);
+text-shadow: -4px 4px  black;
+}
 
 a {
   color: var(--yellow-active);
@@ -58,6 +65,14 @@ body {
   border-radius: 25px;
   font-weight: 600;
   color: var(--bs-body-color);
+}
+
+.icon-container{
+    padding: 1rem;
+    /*text-shadow: 2px 2px 5px black;*/
+}
+.icon:hover{
+    color: var(--yellow)
 }
 
 @keyframes click {

@@ -3,7 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import {MatProgressSpinnerModule} from '@angular/material/progress-spinner';
+import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
 
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
@@ -13,6 +13,7 @@ import { DescripcionComponent } from './components/Servicios/descripcion.compone
 import { FooterComponent } from './components/footer/footer.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { SideBarComponent } from './components/SideBar/sidebar.component';
+import { NgCircleProgressModule } from 'ng-circle-progress';
 
 @NgModule({
   declarations: [
@@ -23,18 +24,18 @@ import { SideBarComponent } from './components/SideBar/sidebar.component';
     DescripcionComponent,
     FooterComponent,
     NavbarComponent,
-    SideBarComponent
+    SideBarComponent,
   ],
   imports: [
     BrowserModule,
     HttpClientModule,
     FormsModule,
     ReactiveFormsModule,
-   BrowserAnimationsModule,
-   MatProgressSpinnerModule
-
+    BrowserAnimationsModule,
+    MatProgressSpinnerModule,
+    NgCircleProgressModule.forRoot({})
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

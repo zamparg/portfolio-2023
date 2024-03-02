@@ -1,80 +1,103 @@
 {
     "skills": {
       "frontend":[
-        {
-            "img":"https://2.bp.blogspot.com/_sDOe5HxTdMk/TTsZ5zq5dbI/AAAAAAAAB-k/LKIG16gsWjU/s1600/HTML5_Badge_128.png",
-            "tittle":"HTML5"
-        },
-        {
-            "img":"https://cdn1.iconfinder.com/data/icons/logotypes/32/badge-css-3-128.png",
-            "tittle":"CSS3"
-        },
+          {
+              "img":"https://2.bp.blogspot.com/_sDOe5HxTdMk/TTsZ5zq5dbI/AAAAAAAAB-k/LKIG16gsWjU/s1600/HTML5_Badge_128.png",
+              "tittle":"HTML",
+              "percent":85
+            },
+            {
+                "img":"https://cdn1.iconfinder.com/data/icons/logotypes/32/badge-css-3-128.png",
+                "tittle":"CSS",
+                "percent":85
+            },
+            {
+                "img":"https://juststickers.in/wp-content/uploads/2017/11/angular-original.png",
+                "tittle":"Angular",
+                "percent":60
+            },
         {
             "img":"https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/180px-Bootstrap_logo.svg.png",
-            "tittle":"Bootstrap"
+            "tittle":"Bootstrap",
+            "percent":85
         },
         {
             "img":"https://dirteam.com/sander/wp-content/uploads/sites/2/2016/09/js-logo.png",
-            "tittle":"Javascript"
+            "tittle":"Javascript",
+            "percent":75
         },
         {
-            "img":"https://juststickers.in/wp-content/uploads/2017/11/angular-original.png",
-            "tittle":"Angular"
+            "img":"https://blog.mayflower.de/wp-content/uploads/2017/05/TypeScript_Logo.png",
+            "tittle":"TypeScript",
+            "percent":75
         },
         {
             "img":"https://cdn.jsdelivr.net/gh/angular-material-extensions/link-preview/assets/angular-material-extensions-logo.png",
-            "tittle":"Angular Material"
+            "tittle":"Angular Material",
+            "percent":50
         },
         {
             "img":"https://www.pngall.com/wp-content/uploads/2016/05/WordPress-Logo-PNG-File-180x180.png",
-            "tittle":"Wordpress"},
+            "tittle":"Wordpress",
+            "percent":75},
         {
             "img":"https://res.cloudinary.com/zamparg/image/upload/v1665771938/Portfolio/Habiliadades/Git_dxls4j.png",
-            "tittle":"GIT"
+            "tittle":"GIT",
+            "percent":75
         },
         {
             "img":"https://uploads.strikinglycdn.com/page/images/icons/github-icon.png",
-            "tittle":"GitHub"
+            "tittle":"GitHub",
+            "percent":90
         }
  
         ],
         "backend":[{
             "img":"https://www.taniarascia.com/static/517c02bd875932e2a959488763695b28/92ab1/node.png",
-            "tittle":"NodeJs"
+            "tittle":"NodeJs",
+            "percent":35
         },
         {
             "img":"https://dirteam.com/sander/wp-content/uploads/sites/2/2016/09/js-logo.png",
-            "tittle":"Javascript"
+            "tittle":"Javascript",
+            "percent":50
         },
         {
             "img":"https://www.iconninja.com/files/880/980/48/logo-mysql-development-code-icon.png",
-            "tittle":"MySql"
+            "tittle":"MySql",
+            "percent":40
         },
         {
             "img":"https://smyl.es/wurdp/assets/mongodb-150x150.png",
-            "tittle":"MongoDB"
+            "tittle":"MongoDB",
+            "percent":60
         },
         {
             "img":"https://www.pngrepo.com/png/303670/180/firebase-1-logo.png",
-            "tittle":"Firebase"
+            "tittle":"Firebase",
+            "percent":60
         }
     
     ],
         "dis":[{
             "img":"https://res.cloudinary.com/zamparg/image/upload/v1665771938/Portfolio/Habiliadades/APs_isdtyw.png",
-            "tittle":"Adobe Photoshop"
+            "tittle":"Adobe Photoshop",
+            "percent":85
         },
         {
             "img":"https://res.cloudinary.com/zamparg/image/upload/v1665771938/Portfolio/Habiliadades/Ai_urmiy8.png",
-            "tittle":"Adobe Illustrator"
+            "tittle":"Adobe Illustrator",
+            "percent":85
         },
         {
             "img":"https://res.cloudinary.com/zamparg/image/upload/v1665771938/Portfolio/Habiliadades/APr_vpg1mp.png",
-            "tittle":"Adobre Premiere"
+            "tittle":"Adobre Premiere",
+            "percent":85
         },
         {
             "img":"https://res.cloudinary.com/zamparg/image/upload/v1665771938/Portfolio/Habiliadades/AAe_fnqkgs.png",
-            "tittle":"Adobe After Effects"
+            "tittle":"Adobe After Effects",
+            "percent":50
         }]
       },
     "recentWorks":[

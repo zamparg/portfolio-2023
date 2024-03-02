@@ -4,31 +4,18 @@ img{
     //max-width: 200px;
     max-height: 80vh;
     width: auto;
-    box-shadow: 5px 5px 5px black;
+    box-shadow: -5px 5px 5px black;
 }
-.title::selection{
-        background-color: white !important;
-        font-size: 5vw;
-}
-.title{
-    color: var(--yellow);
-}
+
 
 h2{
     margin: 0;
-   
 }
 
 p{
     font-size: 1.2rem;
 }
-.icon-container{
-    padding: 1rem;
-    /*text-shadow: 2px 2px 5px black;*/
-}
-.icon:hover{
-    color: var(--yellow)
-}
+
 
 p{
     margin: 0;
