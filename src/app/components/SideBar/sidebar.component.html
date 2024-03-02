@@ -1,0 +1,41 @@
+<aside>
+    <div class="d-flex align-items-center gap-2 menu-button-container justify-content-end">
+        <span class="text ">HOME</span>
+        <span (click)="goTo(null)" class="animate__animated animate__backInRight icon icon1 "
+            [ngClass]="{'active': page==null }">
+            <i class="fa-solid fa-home icon-menu "></i>
+        </span>
+    </div>
+
+    <div class="d-flex align-items-center gap-2 menu-button-container justify-content-end">
+        <span class="text ">QUIEN SOY</span>
+        <span (click)="goTo(1)" class="animate__animated animate__backInRight icon icon2 "
+            [ngClass]="{'active': page==1 }">
+            <i class="fa-regular fa-user icon-menu "></i>
+        </span>
+    </div>
+
+    <div class="d-flex align-items-center gap-2 menu-button-container justify-content-end">
+        <span class="text ">SERVICIOS</span>
+        <span (click)="goTo(2)" class="animate__animated animate__backInRight icon icon3 "
+            [ngClass]="{'active': page==2 }">
+            <i class="fa-solid fa-screwdriver-wrench icon-menu "></i>
+        </span>
+    </div>
+
+    <div class="d-flex align-items-center gap-2 menu-button-container justify-content-end">
+        <span class="text ">PORTFOLIO</span>
+        <span (click)="goTo(3)" class="animate__animated animate__backInRight icon icon4 "
+            [ngClass]="{'active': page==3 }">
+            <i class="fa-solid fa-briefcase icon-menu "></i>
+        </span>
+    </div>
+
+    <div class="d-flex align-items-center gap-2 menu-button-container justify-content-end">
+        <span class="text ">CONTACTO</span>
+        <span (click)="goTo(4)" class="animate__animated animate__backInRight icon icon5 "
+            [ngClass]="{'active': page==4 }">
+            <i class="fa-solid fa-paper-plane icon-menu "></i>
+        </span>
+    </div>
+</aside>

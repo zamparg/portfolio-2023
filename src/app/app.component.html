@@ -1,15 +1,14 @@
-<div class="m-0 p-0 contenedorGral" > <!-- [ngClass]="{'blur': blur}" -->
-    <app-navbar class="position-absolute"></app-navbar>
-    <div class="d-flex justify-content-center">
+
+    <div class="d-flex justify-content-center align-items-center py-5 px-4 w-100 section-full">
         <div class="contenedor">
-            <app-header></app-header>
-            <app-quiensoy></app-quiensoy>
-            <app-descripcion></app-descripcion>
-            <app-trabajos></app-trabajos>
-            <app-footer></app-footer>
+            <app-header *ngIf="page==null"  [@slideInOut]></app-header>
+            <app-quiensoy *ngIf="page==1"  [@slideInOut]></app-quiensoy>
+            <app-descripcion *ngIf="page==2"  [@slideInOut]></app-descripcion>
+            <app-trabajos *ngIf="page==3"  [@slideInOut]></app-trabajos>
+            <app-footer *ngIf="page==4"  [@slideInOut]></app-footer>
         </div>
     </div>
-</div>
-<button class="btn-back text-center animate__animated animate__fadeIn" [ngClass]="{'active': button, 'inactive': !button}" (click)="goToTop()" >
-    <i class="fa-solid fa-jet-fighter-up fa-2xl icon-top"></i>
-</button>
+
+
+
+<app-sidebar></app-sidebar>

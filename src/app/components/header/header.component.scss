@@ -1,12 +1,24 @@
+
 img{
-    border-radius:100% ;    
-    width: 200px;
-    margin-bottom:1.5rem
+    border-radius:30px ;    
+    //max-width: 200px;
+    max-height: 80vh;
+    width: auto;
+    box-shadow: 5px 5px 5px black;
 }
+.title::selection{
+        background-color: white !important;
+        font-size: 5vw;
+}
+.title{
+    color: var(--yellow);
+}
+
 h2{
     margin: 0;
-    font-size: 2.5rem;
+   
 }
+
 p{
     font-size: 1.2rem;
 }

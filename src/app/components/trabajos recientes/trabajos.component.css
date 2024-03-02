@@ -107,24 +107,24 @@
     border: rgb(41, 41, 41) 2px solid;
 }
 
-.card1{
+.card0{
     border: var(--yellow-active) 2px solid;
 }
-.card1 h4, .card1 small{
+.card0 h4, .card0 small{
     color: var(--yellow-active)
 }
-.card2{
+.card1{
     border:var(--blue) 2px solid;
 }
-.card2 h4, .card2 small{
+.card1 h4, .card1 small{
     color:var(--blue)
 }
-.card3{
+.card2{
     border: var(--green) 2px solid;
 }
-.card3 h4, .card3 small{
+.card2 h4, .card2 small{
     color:var(--green)
 }
-.card3 .btn{
+.card2 .btn{
     background-color:var(--green)
 }
