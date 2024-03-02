@@ -7,7 +7,7 @@ import { trigger, transition, style, animate } from '@angular/animations';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css'],
+  styleUrls: ['./app.component.scss'],
   animations: [
     trigger('slideInOut', [
       transition(':enter', [
@@ -34,10 +34,10 @@ export class AppComponent implements OnInit {
   ngOnInit() {
     this._nav.page.subscribe((data) => {
       this.page=data 
-      // window.scrollTo({
-      //   top: 0,
-      //   behavior: 'smooth',
-      // })
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth',
+      })
     });
   }
 

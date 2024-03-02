@@ -122,3 +122,11 @@ p{
     border-radius: 50%;
 }
 
+@media (max-width:780px){
+    img{
+        max-height: 58vh;
+    }
+    .content-presentation{
+        margin-top: -10vh;
+    }
+}

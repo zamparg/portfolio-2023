@@ -80,6 +80,10 @@ body {
   .avatar-container {
     text-align: center;
   }
+  .section-full {
+    min-height: auto !important;
+  }
+  
 }
 
 .blur {
