@@ -44,7 +44,7 @@ export class TrabajosComponent implements OnInit, AfterViewChecked{
   view:boolean =false
   dataLength!:number
 
-  constructor(private _data:DataService, private scrollService:ScrollService){}
+  constructor(public _data:DataService, private scrollService:ScrollService){}
   ngAfterViewChecked() {
     
     // const sectionElement = this.scrollService.getSectionElement();

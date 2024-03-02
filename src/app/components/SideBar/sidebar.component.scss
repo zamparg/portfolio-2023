@@ -19,21 +19,20 @@ span{
 .menu-button-container{
     border: transparent 2px solid;
     border-radius: 40px ;
-    padding-left: 0.5rem;
+    padding-left: 1rem;
     transition: all 0.4s;
     .text{
         transition: all 0.4s;
-        visibility: hidden;
+        opacity: 0;
     }
 }
 
-.menu-button-container:has(>.icon:hover){
+.menu-button-container:hover{
     background-color: black;
     border: var(--yellow) 2px solid;
-    border-radius: 40px ;
-    padding-left: 0.5rem;
+
     .text{
-        visibility: visible;
+        opacity: 1;
     }
 }
 

@@ -19,26 +19,6 @@ h3{
     font-weight: 400;
 }
 
-.form-container {
-    margin-bottom: 3rem;
-}
-
-
-@media (max-width: 780px){
-    .form-container {
-        margin-bottom: 7rem;
-    }
-}
-
-@media (max-width:550px){
-    .avatar-container{
-        background-size: 30%;}
-}
-
-@media (max-width:440px){
-    .avatar-container{
-        background-size:40%;}
-}
 
 
 .screen{

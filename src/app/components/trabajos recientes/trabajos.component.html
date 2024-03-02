@@ -23,7 +23,7 @@
                                 <div class="card-body text-center mt-4">
                                     <h4 class="card-title">{{work.tittle}}</h4>
                                     <p class="card-text">{{work.description}}</p>
-                                    <a [href]="work.url" target="_blank" class="btn">Ver sitio</a>
+                                    <a [href]="_data.sanitize(work.url)" target="_blank" class="btn">Ver sitio</a>
                                 </div>
                             </div>
                         </div>
@@ -50,7 +50,7 @@
                                 <div class="card-body text-center mt-4">
                                     <h4 class="card-title">{{work.tittle}}</h4>
                                     <p class="card-text">{{work.description}}</p>
-                                    <a [href]="work.url" target="_blank" class="btn">Ver sitio</a>
+                                    <a [href]="_data.sanitize(work.url)" target="_blank" class="btn">Ver sitio</a>
                                 </div>
                             </div>
                         </div>

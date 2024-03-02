@@ -1,5 +1,6 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
+import { DomSanitizer } from '@angular/platform-browser';
 import { Observable } from 'rxjs';
 
 @Injectable({
@@ -7,9 +8,14 @@ import { Observable } from 'rxjs';
 })
 export class DataService {
 
-  constructor(private http:HttpClient) { }
+  constructor(private http:HttpClient, private sanitizer:DomSanitizer) { }
 
   getData() :Observable<any> {
      return this.http.get('./assets/data.json')
   }
+
+  sanitize(url:string){
+    return this.sanitizer.bypassSecurityTrustUrl(url);
+}
+
 }

@@ -1,5 +1,6 @@
 import { AfterViewChecked, Component } from '@angular/core';
 import { ScrollService } from 'src/app/scroll-service.service';
+import { NavigationService } from 'src/app/services/navigation.service';
 
 @Component({
   selector: 'app-descripcion',
@@ -7,7 +8,7 @@ import { ScrollService } from 'src/app/scroll-service.service';
   styleUrls: ['./descripcion.component.css'],
 })
 export class DescripcionComponent implements AfterViewChecked{
-  constructor(private scrollService: ScrollService) {}
+  constructor(private _nav: NavigationService) {}
 
   ngOnInit() {}
   
@@ -18,10 +19,8 @@ export class DescripcionComponent implements AfterViewChecked{
     //   sectionElement.scrollIntoView({ behavior: 'smooth' });
     // }
   }
-storeSectionElement() {
-    const sectionElement = document.getElementById('contact');
-    sectionElement?.scrollIntoView({ behavior: 'smooth' });
+  goTo(id: number | null) {
+    this._nav.setData(id);
   }
-
   
 }

@@ -40,9 +40,13 @@ a:hover {
 }
 
 body {
-  background-color: rgb(33, 42, 58);
+  /* background-color: rgb(33, 42, 58);
   background-color: rgb(31, 31, 31);
-  background-color: var(--background);
+  background-color: var(--background); */
+  background:url('assets/imgs/bckgr.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .section-full {
@@ -80,9 +84,9 @@ body {
   .avatar-container {
     text-align: center;
   }
-  .section-full {
+  /* .section-full {
     min-height: auto !important;
-  }
+  } */
   
 }
 
