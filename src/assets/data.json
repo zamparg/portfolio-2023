@@ -1,191 +1,220 @@
 {
-    "skills": {
-      "frontend":[
-          {
-              "img":"https://2.bp.blogspot.com/_sDOe5HxTdMk/TTsZ5zq5dbI/AAAAAAAAB-k/LKIG16gsWjU/s1600/HTML5_Badge_128.png",
-              "tittle":"HTML",
-              "percent":85
-            },
-            {
-                "img":"https://cdn1.iconfinder.com/data/icons/logotypes/32/badge-css-3-128.png",
-                "tittle":"CSS",
-                "percent":85
-            },
-            {
-                "img":"https://juststickers.in/wp-content/uploads/2017/11/angular-original.png",
-                "tittle":"Angular",
-                "percent":60
-            },
-        {
-            "img":"https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/180px-Bootstrap_logo.svg.png",
-            "tittle":"Bootstrap",
-            "percent":85
-        },
-        {
-            "img":"https://dirteam.com/sander/wp-content/uploads/sites/2/2016/09/js-logo.png",
-            "tittle":"Javascript",
-            "percent":75
-        },
-        {
-            "img":"https://blog.mayflower.de/wp-content/uploads/2017/05/TypeScript_Logo.png",
-            "tittle":"TypeScript",
-            "percent":75
-        },
-        {
-            "img":"https://cdn.jsdelivr.net/gh/angular-material-extensions/link-preview/assets/angular-material-extensions-logo.png",
-            "tittle":"Angular Material",
-            "percent":50
-        },
-        {
-            "img":"https://www.pngall.com/wp-content/uploads/2016/05/WordPress-Logo-PNG-File-180x180.png",
-            "tittle":"Wordpress",
-            "percent":75},
-        {
-            "img":"https://res.cloudinary.com/zamparg/image/upload/v1665771938/Portfolio/Habiliadades/Git_dxls4j.png",
-            "tittle":"GIT",
-            "percent":75
-        },
-        {
-            "img":"https://uploads.strikinglycdn.com/page/images/icons/github-icon.png",
-            "tittle":"GitHub",
-            "percent":90
-        }
- 
-        ],
-        "backend":[{
-            "img":"https://www.taniarascia.com/static/517c02bd875932e2a959488763695b28/92ab1/node.png",
-            "tittle":"NodeJs",
-            "percent":35
-        },
-        {
-            "img":"https://dirteam.com/sander/wp-content/uploads/sites/2/2016/09/js-logo.png",
-            "tittle":"Javascript",
-            "percent":50
-        },
-        {
-            "img":"https://www.iconninja.com/files/880/980/48/logo-mysql-development-code-icon.png",
-            "tittle":"MySql",
-            "percent":40
-        },
-        {
-            "img":"https://smyl.es/wurdp/assets/mongodb-150x150.png",
-            "tittle":"MongoDB",
-            "percent":60
-        },
-        {
-            "img":"https://www.pngrepo.com/png/303670/180/firebase-1-logo.png",
-            "tittle":"Firebase",
-            "percent":60
-        }
-    
-    ],
-        "dis":[{
-            "img":"https://res.cloudinary.com/zamparg/image/upload/v1665771938/Portfolio/Habiliadades/APs_isdtyw.png",
-            "tittle":"Adobe Photoshop",
-            "percent":85
-        },
-        {
-            "img":"https://res.cloudinary.com/zamparg/image/upload/v1665771938/Portfolio/Habiliadades/Ai_urmiy8.png",
-            "tittle":"Adobe Illustrator",
-            "percent":85
-        },
-        {
-            "img":"https://res.cloudinary.com/zamparg/image/upload/v1665771938/Portfolio/Habiliadades/APr_vpg1mp.png",
-            "tittle":"Adobre Premiere",
-            "percent":85
-        },
-        {
-            "img":"https://res.cloudinary.com/zamparg/image/upload/v1665771938/Portfolio/Habiliadades/AAe_fnqkgs.png",
-            "tittle":"Adobe After Effects",
-            "percent":50
-        }]
+  "skills": {
+    "frontend": [
+      {
+        "img": "https://2.bp.blogspot.com/_sDOe5HxTdMk/TTsZ5zq5dbI/AAAAAAAAB-k/LKIG16gsWjU/s1600/HTML5_Badge_128.png",
+        "tittle": "HTML",
+        "percent": 85
       },
-    "recentWorks":[
-        {
-            "img":"https://res.cloudinary.com/dt8a16ucf/image/upload/v1689172386/user_ijep3u.png",
-            "imgFull":"https://res.cloudinary.com/dt8a16ucf/image/upload/v1689172386/user_ijep3u.png",
-            "tittle":"ISI",
-            "short_description":"Campus Virtual",
-            "description":"Desarrollo de Campus virtual personalizado. Permite creación de cursos y asignación de clases. ",
-            "url":" https://campus.hermenegildozampar.com.ar/",
-            "category":"ANGULAR | NODEJS"
-        },
-        {
-            "img":"https://hermenegildozampar.com.ar/wp-content/uploads/2020/09/footer-logo-1.png",
-            "imgFull":"https://hermenegildozampar.com.ar/wp-content/uploads/2020/09/footer-logo-1.png",
-            "tittle":"ISI",
-            "short_description":"Sitio Institucional",
-            "description":"Desarrollo de Sitio institucional informativo, con detalles de cursos.",
-            "url":"http://www.hermenegildoZampar.com.ar",
-            "category":"WORDPRESS"
-        },
-        {
-            "img":"https://porvenir.ar/wp-content/uploads/2024/01/porvenir-logo4-1024x1020.png",
-            "imgFull":"https://porvenir.ar/wp-content/uploads/2024/01/porvenir-logo4-1024x1020.png",
-            "tittle":"Porvenir",
-            "short_description":"Sitio Institucional",
-            "description":"Sitio dedicado a programa de desarrollo y apoyo de la juventud",
-            "url":"https://porvenir.ar/",
-            "category":"WORDPRESS"
-        },
+      {
+        "img": "https://cdn1.iconfinder.com/data/icons/logotypes/32/badge-css-3-128.png",
+        "tittle": "CSS",
+        "percent": 85
+      },
+      {
+        "img": "https://juststickers.in/wp-content/uploads/2017/11/angular-original.png",
+        "tittle": "Angular",
+        "percent": 60
+      },
+      {
+        "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/180px-Bootstrap_logo.svg.png",
+        "tittle": "Bootstrap",
+        "percent": 85
+      },
+      {
+        "img": "https://dirteam.com/sander/wp-content/uploads/sites/2/2016/09/js-logo.png",
+        "tittle": "Javascript",
+        "percent": 75
+      },
+      {
+        "img": "https://blog.mayflower.de/wp-content/uploads/2017/05/TypeScript_Logo.png",
+        "tittle": "TypeScript",
+        "percent": 75
+      },
+      {
+        "img": "https://cdn.jsdelivr.net/gh/angular-material-extensions/link-preview/assets/angular-material-extensions-logo.png",
+        "tittle": "Angular Material",
+        "percent": 50
+      },
+      {
+        "img": "https://www.pngall.com/wp-content/uploads/2016/05/WordPress-Logo-PNG-File-180x180.png",
+        "tittle": "Wordpress",
+        "percent": 75
+      },
+      {
+        "img": "https://res.cloudinary.com/zamparg/image/upload/v1665771938/Portfolio/Habiliadades/Git_dxls4j.png",
+        "tittle": "GIT",
+        "percent": 75
+      },
+      {
+        "img": "https://uploads.strikinglycdn.com/page/images/icons/github-icon.png",
+        "tittle": "GitHub",
+        "percent": 90
+      }
+    ],
+    "backend": [
+      {
+        "img": "https://www.taniarascia.com/static/517c02bd875932e2a959488763695b28/92ab1/node.png",
+        "tittle": "NodeJs",
+        "percent": 35
+      },
+      {
+        "img": "https://dirteam.com/sander/wp-content/uploads/sites/2/2016/09/js-logo.png",
+        "tittle": "Javascript",
+        "percent": 50
+      },
+      {
+        "img": "https://www.iconninja.com/files/880/980/48/logo-mysql-development-code-icon.png",
+        "tittle": "MySql",
+        "percent": 40
+      },
+      {
+        "img": "https://smyl.es/wurdp/assets/mongodb-150x150.png",
+        "tittle": "MongoDB",
+        "percent": 60
+      },
+      {
+        "img": "https://www.pngrepo.com/png/303670/180/firebase-1-logo.png",
+        "tittle": "Firebase",
+        "percent": 60
+      }
+    ],
+    "dis": [
+      {
+        "img": "https://res.cloudinary.com/zamparg/image/upload/v1665771938/Portfolio/Habiliadades/APs_isdtyw.png",
+        "tittle": "Adobe Photoshop",
+        "percent": 85
+      },
+      {
+        "img": "https://res.cloudinary.com/zamparg/image/upload/v1665771938/Portfolio/Habiliadades/Ai_urmiy8.png",
+        "tittle": "Adobe Illustrator",
+        "percent": 85
+      },
+      {
+        "img": "https://res.cloudinary.com/zamparg/image/upload/v1665771938/Portfolio/Habiliadades/APr_vpg1mp.png",
+        "tittle": "Adobre Premiere",
+        "percent": 85
+      },
+      {
+        "img": "https://res.cloudinary.com/zamparg/image/upload/v1665771938/Portfolio/Habiliadades/AAe_fnqkgs.png",
+        "tittle": "Adobe After Effects",
+        "percent": 50
+      }
+    ]
+  },
+  "recentWorks": [
+    {
+      "img": "https://res.cloudinary.com/zamparg/image/upload/v1709428349/Portfolio/capturas/web_3_oyczph.webp",
+      "imgFull": "https://res.cloudinary.com/dt8a16ucf/image/upload/v1689172386/user_ijep3u.png",
+      "tittle": "ISI",
+      "short_description": "Campus Virtual",
+      "description": "Desarrollo de Campus virtual personalizado. Permite creación de cursos y asignación de clases. ",
+      "url": " https://campus.hermenegildozampar.com.ar/",
+      "category": "ANGULAR | NODEJS"
+    },
+    {
+      "img": "https://res.cloudinary.com/zamparg/image/upload/v1709428350/Portfolio/capturas/web_9_box2us.webp",
+      "imgFull": "https://hermenegildozampar.com.ar/wp-content/uploads/2020/09/footer-logo-1.png",
+      "tittle": "ISI",
+      "short_description": "Sitio Institucional",
+      "description": "Desarrollo de Sitio institucional informativo, con detalles de cursos.",
+      "url": "http://www.hermenegildoZampar.com.ar",
+      "category": "WORDPRESS"
+    },
+    {
+      "img": "https://res.cloudinary.com/zamparg/image/upload/v1709428350/Portfolio/capturas/web_8_qoarv1.webp",
+      "imgFull": "https://porvenir.ar/wp-content/uploads/2024/01/porvenir-logo4-1024x1020.png",
+      "tittle": "Porvenir",
+      "short_description": "Sitio Institucional",
+      "description": "Sitio dedicado a programa de desarrollo y apoyo de la juventud",
+      "url": "https://porvenir.ar/",
+      "category": "WORDPRESS"
+    },
+
+    {
+      "img": "https://res.cloudinary.com/zamparg/image/upload/v1709428349/Portfolio/capturas/web_7_fyr2go.webp",
+      "imgFull": "https://esgrimascaramouche.com/wp-content/uploads/2023/08/cropped-scaramouche.webp",
+      "tittle": "Esgrima Scaramouche",
+      "short_description": "Sitio informativo",
+      "description": "Desarrollo de Sitio informativo para escuela de Esgrima.",
+      "url": "http://www.esgrimascaramouche.com",
+      "category": "WORDPRESS"
+    },
+
+    {
+      "img": "https://res.cloudinary.com/zamparg/image/upload/v1709428349/Portfolio/capturas/web_6_vedv5k.webp",
+      "imgFull": "https://res.cloudinary.com/zamparg/image/upload/v1691079240/Portfolio/nuevaera_m7ygpi.png",
+      "tittle": "Nueva Era Servicios",
+      "short_description": "Empresa de servicios de construcción",
+      "description": "Sitio descriptivo para empresa de servicios, contacto y galería",
+      "url": "http://nuevaeraservicios.com.ar/",
+      "category": "HTML5 | BOOTSTRAP | JS"
+    },
+    {
+      "img": "https://res.cloudinary.com/zamparg/image/upload/v1709428349/Portfolio/capturas/web_5_qdii5m.webp",
+      "imgFull": "https://elteatrodigital.com/wp-content/uploads/2023/09/FAVICON.png",
+      "tittle": "El Teatro Digital",
+      "short_description": "- EN PROCESO -",
+      "description": "Sitio institucional + carrito de compras para programa de Radio",
+      "url": "http://elteatrodigital.com/",
+      "category": "WORDPRESS"
+    },
+    {
+      "img": "https://res.cloudinary.com/zamparg/image/upload/v1709428348/Portfolio/capturas/web_1_ogbj0m.webp",
+      "imgFull": "https://res.cloudinary.com/zamparg/image/upload/v1689179187/iching/pngwing.com_mdwq9n_evdn4a.png",
+      "tittle": "I-Ching",
+      "short_description": "App Web - Tirada de Iching",
+      "description": "Desarrollo de lógica para el funcionamiento de una tirada interactiva del Oráculo I-ching con Javascript",
+      "url": "https://librodelasmutaciones.com.ar/",
+      "category": "JAVASCRIPT"
+    },
+    {
+      "img": "https://res.cloudinary.com/zamparg/image/upload/v1709428348/Portfolio/capturas/web_2_uuvezf.webp",
+      "imgFull": "https://res.cloudinary.com/zamparg/image/upload/v1691079239/Portfolio/logo-lubri_f72w7y.png",
+      "tittle": "Lubricentro Lubriman",
+      "short_description": "Landing para lubricentro",
+      "description": "Desarrollo de Landing para Lubricentro, sitio simple con contacto.",
+      "url": "https://lubricentrolubriman.com.ar/",
+      "category": "HTML5 | CSS3"
+    },
+
+    {
+      "img": "https://res.cloudinary.com/zamparg/image/upload/v1709428349/Portfolio/capturas/web_4_nl7oxq.webp",
+      "imgFull": "https://res.cloudinary.com/zamparg/image/upload/v1689179576/Screens/favicon_ayepks.ico",
+      "tittle": "Amazing Events",
+      "short_description": "Sitio de Eventos",
+      "description": " Carrito de compras con filtrado de contenido avanzado, Contenido dinámico y Muestreo de Estadísticas",
+      "url": "https://zamparg.github.io/Amazing_Events_Zampar/",
+      "category": "HTML | CSS | JS | VUE"
+    }
+  ],
+  "companys": [
+    {
+      "img": "https://www.atmpforum.com/wp-content/uploads/2021/06/logo_roche.png",
+      "alt": "logo Roche"
+    },
+    {
+      "img": "https://neptun.it/wp-content/uploads/2016/10/Logo_McCain2.png",
+      "alt": "logo McCain"
+    },
+    {
+      "img": "https://tokio.agency/wp-content/uploads/2017/04/05TOKIO-HEADER.png",
+      "alt": "logo Tokio"
+    },
+    {
+      "img": "https://porvenir.ar/wp-content/uploads/2024/01/Isologotipo_Fundacion_blanco.png",
+      "alt": "logo Fundación Stábile"
+    },
+    {
+        "img": "https://hermenegildozampar.com.ar/wp-content/uploads/2020/09/footer-logo-1.png",
+        "alt": "logo ISI"
+      },
+    {
+        "img": "https://res.cloudinary.com/zamparg/image/upload/v1691079240/Portfolio/nuevaera_m7ygpi.png",
+        "alt": "logo Nueva Era"
+      }
 
 
-        {
-            "img":"https://esgrimascaramouche.com/wp-content/uploads/2023/08/cropped-scaramouche.webp",
-            "imgFull":"https://esgrimascaramouche.com/wp-content/uploads/2023/08/cropped-scaramouche.webp",
-            "tittle":"Esgrima Scaramouche",
-            "short_description":"Sitio informativo",
-            "description":"Desarrollo de Sitio informativo para escuela de Esgrima.",
-            "url":"http://www.esgrimascaramouche.com",
-            "category":"WORDPRESS"
-        },
-
-
-        {
-            "img":"https://res.cloudinary.com/zamparg/image/upload/v1691079240/Portfolio/nuevaera_m7ygpi.png",
-            "imgFull":"https://res.cloudinary.com/zamparg/image/upload/v1691079240/Portfolio/nuevaera_m7ygpi.png",
-            "tittle":"Nueva Era Servicios",
-            "short_description":"Empresa de servicios de construcción",
-            "description":"Sitio descriptivo para empresa de servicios, contacto y galería",
-            "url":"http://nuevaeraservicios.com.ar/",
-            "category":"HTML5 | BOOTSTRAP | JS"
-        },
-        {
-            "img":"https://elteatrodigital.com/wp-content/uploads/2023/09/FAVICON.png",
-            "imgFull":"https://elteatrodigital.com/wp-content/uploads/2023/09/FAVICON.png",
-            "tittle":"El Teatro Digital",
-            "short_description":"- EN PROCESO -",
-            "description":"Sitio institucional + carrito de compras para programa de Radio",
-            "url":"http://elteatrodigital.com/",
-            "category":"WORDPRESS"
-        },
-        {
-            "img":"https://res.cloudinary.com/zamparg/image/upload/v1689179187/iching/pngwing.com_mdwq9n_evdn4a.png",
-            "imgFull":"https://res.cloudinary.com/zamparg/image/upload/v1689179187/iching/pngwing.com_mdwq9n_evdn4a.png",
-            "tittle":"I-Ching",
-            "short_description":"App Web - Tirada de Iching",
-            "description":"Desarrollo de lógica para el funcionamiento de una tirada interactiva del Oráculo I-ching con Javascript",
-            "url":"https://librodelasmutaciones.com.ar/",
-            "category":"JS"
-        },
-        {
-            "img":"https://res.cloudinary.com/zamparg/image/upload/v1691079239/Portfolio/logo-lubri_f72w7y.png",
-            "imgFull":"https://res.cloudinary.com/zamparg/image/upload/v1691079239/Portfolio/logo-lubri_f72w7y.png",
-            "tittle":"Lubricentro Lubriman",
-            "short_description":"Landing para lubricentro",
-            "description":"Desarrollo de Landing para Lubricentro, sitio simple con contacto.",
-            "url":"https://lubricentrolubriman.com.ar/",
-            "category":"HTML5 | CSS3"
-        },
-
-        {
-            "img":"https://res.cloudinary.com/zamparg/image/upload/v1689179576/Screens/favicon_ayepks.ico",
-            "imgFull":"https://res.cloudinary.com/zamparg/image/upload/v1689179576/Screens/favicon_ayepks.ico",
-            "tittle":"Amazing Events",
-            "short_description":"Sitio de Eventos",
-            "description":" Carrito de compras con filtrado de contenido avanzado, Contenido dinámico y Muestreo de Estadísticas",
-            "url":"https://zamparg.github.io/Amazing_Events_Zampar/",
-            "category":"HTML | CSS | JS | VUE"
-        }
-      ]
+    
+  ]
 }

@@ -1,12 +1,9 @@
 <section class="container-fluid avatar-container d-flex flex-column justify-content-center align-items-center gap-2" id="contact">
-    <h2>Contactame</h2>
-    <div class="row mt-5 align-items-start contact-container">
-        <div class="col-md-3">
-            <h3>¡Escribime para lo que necesites!</h3>
-            <p>También podés enviarme un <a href="mailto:zamparg@hotmail.com">Email</a></p>
-        </div>
-
-        <div class="col form-container">
+    <h1 class="title">Contacto</h1>
+    <p>¡Escribime para lo que necesites!</p>
+    <p>También podés enviarme un <a href="mailto:zamparg@hotmail.com">Email</a></p>
+    <div class="flex flex-column mt-5 align-items-start contact-container">
+        <div class="form-container">
             <form action="https://formspree.io/f/xzblbynj" method="POST" class="row gap-4 p-2 pb-5"  
             cForm="ngForm"  id="contactForm" (ngSubmit)="onSend($event)" [formGroup]="contactForm">
 

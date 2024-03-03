@@ -6,7 +6,7 @@ import { BehaviorSubject, Observable } from 'rxjs';
 })
 export class NavigationService {
 
-    page: BehaviorSubject<any> = new BehaviorSubject<any>(null);
+    page: BehaviorSubject<any> = new BehaviorSubject<any>(3); //null
     
     constructor(){}
 

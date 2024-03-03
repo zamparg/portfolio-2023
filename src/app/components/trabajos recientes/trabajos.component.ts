@@ -7,7 +7,7 @@ import { ScrollService } from 'src/app/scroll-service.service';
 @Component({
   selector: 'app-trabajos',
   templateUrl: './trabajos.component.html',
-  styleUrls: ['./trabajos.component.css'],
+  styleUrls: ['./trabajos.component.scss'],
   animations: [
     trigger('onOff', [
       transition(':enter', [style({
@@ -43,6 +43,7 @@ export class TrabajosComponent implements OnInit, AfterViewChecked{
   data:any
   view:boolean =false
   dataLength!:number
+  companys:any 
 
   constructor(public _data:DataService, private scrollService:ScrollService){}
   ngAfterViewChecked() {
@@ -57,6 +58,7 @@ export class TrabajosComponent implements OnInit, AfterViewChecked{
       res =>{
         this.data=res.recentWorks
         this.dataLength=this.data.length
+        this.companys=res.companys
       }
     )
   }
