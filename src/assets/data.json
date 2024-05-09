@@ -108,10 +108,32 @@
       "imgFull": "https://res.cloudinary.com/dt8a16ucf/image/upload/v1689172386/user_ijep3u.png",
       "tittle": "ISI",
       "short_description": "Campus Virtual",
-      "description": "Desarrollo de Campus virtual personalizado. Permite creación de cursos y asignación de clases. ",
+      "description": "Campus virtual. Actualmente en uso con más de 2.000 usuarios activos",
       "url": " https://campus.hermenegildozampar.com.ar/",
       "category": "ANGULAR | NODEJS"
     },
+
+    {
+      "img": "https://res.cloudinary.com/zamparg/image/upload/v1715296553/Portfolio/capturas/laundry_fnxecs.webp",
+      "imgFull": "https://res.cloudinary.com/zamparg/image/upload/v1715296553/Portfolio/capturas/laundry_fnxecs.webp",
+      "tittle": "OCEAN DRY CLEANER",
+      "short_description": "Lavandería + Reservas",
+      "description": "Sitio informativo + sistema de reservas",
+      "url": " https://oceandrycleaner.com/",
+      "category": "ANGULAR | NODEJS"
+    },
+
+    {
+      "img": "https://res.cloudinary.com/zamparg/image/upload/v1715296553/Portfolio/capturas/calideco_fuwxfh.webp",
+      "imgFull": "https://res.cloudinary.com/zamparg/image/upload/v1715296553/Portfolio/capturas/calideco_fuwxfh.webp",
+      "tittle": "CALI DECO",
+      "short_description": "E-commerce (en proceso)",
+      "description": "Campus virtual. Actualmente en uso con más de 2.000 usuarios activos",
+      "url": "#",
+      "category": "ANGULAR | NODEJS"
+    },
+
+
     {
       "img": "https://res.cloudinary.com/zamparg/image/upload/v1709428350/Portfolio/capturas/web_9_box2us.webp",
       "imgFull": "https://hermenegildozampar.com.ar/wp-content/uploads/2020/09/footer-logo-1.png",
@@ -165,7 +187,7 @@
       "tittle": "I-Ching",
       "short_description": "App Web - Tirada de Iching",
       "description": "Desarrollo de lógica para el funcionamiento de una tirada interactiva del Oráculo I-ching con Javascript",
-      "url": "https://librodelasmutaciones.com.ar/",
+      "url": "https://librodelasmutaciones.com.ar/app.html",
       "category": "JAVASCRIPT"
     },
     {
